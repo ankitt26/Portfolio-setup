@@ -12,15 +12,14 @@
 
 #logo {
   text-decoration: none;
-
   width: 106px;
   height: 20px;
-
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
   line-height: 20px;
+
   /* identical to box height, or 111% */
 
   display: flex;
@@ -35,11 +34,10 @@
 
 .main-section {
   background-image: url(/images/mobie.png);
-
   position: absolute;
   width: 375px;
   height: 636.15px;
-  left: 0px;
+  left: 0;
   top: 75px;
 }
 
@@ -49,11 +47,12 @@
 
   /* Header / 2 */
   margin-top: 100px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 40px;
   line-height: 52px;
+
   /* or 130% */
 
   display: flex;
@@ -77,12 +76,13 @@
 
   /* Body / 2 */
 
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   padding-left: 26px;
+
   /* or 150% */
 
   /* Neutrals/N600 */
@@ -102,7 +102,7 @@
 
   /* Body / 2 - Bolder */
 
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
