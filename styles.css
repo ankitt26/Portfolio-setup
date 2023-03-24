@@ -172,3 +172,25 @@
   top: 77.81%;
   bottom: 18.87%;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.connect:hover {
+  text-decoration: none;
+  color: rgb(241, 166, 166);
+}
+
+#logo:hover {
+  text-decoration: none;
+  color: rgb(241, 166, 166);
+}
+
+a:active {
+  text-decoration: none;
+}
