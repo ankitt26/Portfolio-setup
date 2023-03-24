@@ -1,0 +1,124 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.union {
+  padding-right: 20px;
+}
+
+#logo {
+  text-decoration: none;
+  width: 106px;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 20px;
+
+  /* identical to box height, or 111% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 17px;
+
+  /* Primary/B400 */
+
+  color: #6070ff;
+}
+
+.main-section {
+  display: flex;
+
+  /* justify-content: space-between; */
+
+  flex-direction: column;
+  background-image: url(/images/mobie.png);
+  position: absolute;
+  width: 375px;
+  height: 636.15px;
+  left: 0;
+  top: 75px;
+}
+
+.primary-text {
+  width: 317px;
+  height: 150px;
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  padding-left: 26px;
+  color: #172b4d;
+}
+
+.paragraph {
+  width: 327px;
+  height: 128px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 26px;
+  margin-top: 0;
+}
+
+.connect {
+  width: 177px;
+  height: 14px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  padding-left: 26px;
+  color: #6070ff;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 170.17px;
+  height: 20px;
+  list-style: none;
+  padding-left: 28px;
+  position: relative;
+  bottom: 22px;
+}
+
+.meta {
+  margin-top: 3px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.connect:hover {
+  text-decoration: none;
+  color: rgb(241, 166, 166);
+}
+
+#logo:hover {
+  text-decoration: none;
+  color: rgb(241, 166, 166);
+}
+
+a:active {
+  text-decoration: none;
+}
