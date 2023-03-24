@@ -33,6 +33,9 @@
 }
 
 .main-section {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
   background-image: url(/images/mobie.png);
   position: absolute;
   width: 375px;
@@ -44,133 +47,63 @@
 .primary-text {
   width: 317px;
   height: 150px;
-
-  /* Header / 2 */
   margin-top: 100px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 40px;
   line-height: 52px;
-
-  /* or 130% */
-
   display: flex;
   align-items: center;
   padding-left: 26px;
 
-  /* Neutrals/N800 */
-
   color: #172b4d;
 
-  /* Inside auto layout */
-
-  flex: none;
+  /* flex: none;
   order: 0;
-  flex-grow: 0;
+  flex-grow: 0; */
 }
 
 .paragraph {
   width: 327px;
-  height: 146px;
-
-  /* Body / 2 */
-
+  height: 128px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   padding-left: 26px;
-
-  /* or 150% */
-
-  /* Neutrals/N600 */
-
-  color: #344563;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  margin-top: 0;
 }
 
 .connect {
   width: 177px;
-  height: 24px;
-
-  /* Body / 2 - Bolder */
+  height: 14px;
 
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 22px;
   line-height: 24px;
   padding-left: 26px;
 
-  /* identical to box height, or 150% */
-
-  /* Primary/B300 */
-
-  color: #7f8cff;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color: #6070ff;
 }
 
 .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 170.17px;
   height: 20px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 3;
-  flex-grow: 0;
-}
-
-.twitter {
-  position: absolute;
-  left: 7.4%;
-  right: 88.27%;
-  top: 77.81%;
-  bottom: 18.88%;
-}
-
-.linkedin {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 65px;
-  bottom: 122px;
+  list-style: none;
+  padding-left: 28px;
+  position: relative;
+  bottom: 22px;
 }
 
 .meta {
-  position: absolute;
-  left: 27.47%;
-  right: 67.2%;
-  top: 78.15%;
-  bottom: 19.21%;
-}
-
-.github {
-  position: absolute;
-  left: 38.13%;
-  right: 57.07%;
-  top: 77.81%;
-  bottom: 18.87%;
-}
-
-.vector3 {
-  position: absolute;
-  left: 48%;
-  right: 48.22%;
-  top: 77.81%;
-  bottom: 18.87%;
+  margin-top: 3px;
 }
 
 a:link {
