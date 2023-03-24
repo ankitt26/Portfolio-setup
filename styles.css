@@ -1,28 +1,174 @@
 .header {
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-between;
+  padding-top: 10px;
+}
+
+.union {
+  padding-right: 20px;
 }
 
 #logo {
   text-decoration: none;
 
-  width: 76px;
+  width: 106px;
   height: 20px;
 
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 20px;
   /* identical to box height, or 111% */
 
   display: flex;
   align-items: center;
   text-align: center;
+  padding-left: 17px;
 
   /* Primary/B400 */
 
   color: #6070ff;
+}
+
+.main-section {
+  background-image: url(/images/mobie.png);
+
+  position: absolute;
+  width: 375px;
+  height: 636.15px;
+  left: 0px;
+  top: 75px;
+}
+
+.primary-text {
+  width: 317px;
+  height: 150px;
+
+  /* Header / 2 */
+  margin-top: 100px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 52px;
+  /* or 130% */
+
+  display: flex;
+  align-items: center;
+  padding-left: 26px;
+
+  /* Neutrals/N800 */
+
+  color: #172b4d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.paragraph {
+  width: 327px;
+  height: 146px;
+
+  /* Body / 2 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 26px;
+  /* or 150% */
+
+  /* Neutrals/N600 */
+
+  color: #344563;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.connect {
+  width: 177px;
+  height: 24px;
+
+  /* Body / 2 - Bolder */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  padding-left: 26px;
+
+  /* identical to box height, or 150% */
+
+  /* Primary/B300 */
+
+  color: #7f8cff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.social {
+  width: 170.17px;
+  height: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.twitter {
+  position: absolute;
+  left: 7.4%;
+  right: 88.27%;
+  top: 77.81%;
+  bottom: 18.88%;
+}
+
+.linkedin {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 65px;
+  bottom: 122px;
+}
+
+.meta {
+  position: absolute;
+  left: 27.47%;
+  right: 67.2%;
+  top: 78.15%;
+  bottom: 19.21%;
+}
+
+.github {
+  position: absolute;
+  left: 38.13%;
+  right: 57.07%;
+  top: 77.81%;
+  bottom: 18.87%;
+}
+
+.vector3 {
+  position: absolute;
+  left: 48%;
+  right: 48.22%;
+  top: 77.81%;
+  bottom: 18.87%;
 }
