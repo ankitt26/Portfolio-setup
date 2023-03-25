@@ -36,7 +36,6 @@
   display: flex;
   flex-direction: column;
   background-image: url(/images/mobie.png);
-  /* position: absolute; */
   width: 375px;
   height: 616.15px;
   left: 0;
@@ -133,13 +132,11 @@ a:active {
   grid-template-rows: repeat(3, 1fr);
   row-gap: 60px;
   align-items: center;
-  /* margin-top: 54px; */
 }
 
 .cards {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  /* row-gap: 2px; */
   align-items: center;
   justify-content: center;
 }
@@ -150,9 +147,10 @@ a:active {
   border-radius: 8px;
 }
 
-.block1 {
+/* .block1 {
   margin-bottom: 0px;
-}
+} */
+
 .block2 {
   display: flex;
   flex-direction: column;
@@ -259,8 +257,7 @@ a:active {
   margin-top: 25px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -308,7 +305,7 @@ a:active {
   height: 45px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -329,20 +326,20 @@ a:active {
 .section2-li {
   display: flex;
   flex-direction: row;
+  margin-bottom: 23px;
 }
 
 .section2-h2 {
   flex-grow: 2;
   text-align: left;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 .icon2 {
@@ -366,7 +363,6 @@ a:active {
   justify-content: space-around;
   align-items: center;
   padding-left: 10px;
-
   background-color: #f7f7f9;
   border-radius: 14px;
   margin-bottom: 10px;
@@ -375,7 +371,7 @@ a:active {
 .section2-h3 {
   flex-grow: 1;
   margin-left: 30px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -384,9 +380,6 @@ a:active {
   align-items: center;
 }
 
-.section2-li {
-  margin-bottom: 23px;
-}
 .lan-img {
   width: 50px;
 }
