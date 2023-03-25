@@ -35,7 +35,7 @@
 .main-section {
   display: flex;
   flex-direction: column;
-  background-image: url(images/mobie.png);
+  background-image: url(./images/mobie.png);
   width: 375px;
   height: 616.15px;
   left: 0;
