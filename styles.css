@@ -117,6 +117,11 @@ a:visited {
   color: rgb(241, 166, 166);
 }
 
+button:hover {
+  text-decoration: none;
+  color: rgb(241, 166, 166);
+}
+
 a:active {
   text-decoration: none;
 }
@@ -334,6 +339,7 @@ a:active {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
+
   display: flex;
   align-items: center;
   color: #000000;
