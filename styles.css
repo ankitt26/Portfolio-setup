@@ -339,6 +339,7 @@ a:active {
   display: flex;
   flex-direction: row;
   margin-bottom: 23px;
+  width: 288px;
 }
 
 .section2-h2 {
@@ -355,10 +356,10 @@ a:active {
 }
 
 .icon2 {
-  flex-grow: 1;
   text-align: center;
   position: relative;
   top: 22px;
+  margin-right: 24px;
 }
 
 .languages {
