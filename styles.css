@@ -1,3 +1,7 @@
+body {
+  background: #e5e5e5;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -153,6 +157,10 @@ a:active {
   grid-template-rows: 1fr 1fr;
   align-items: center;
   justify-content: center;
+  background: #fff;
+  padding-bottom: 25px;
+  border-radius: 20px;
+  margin-left: 9px;
 }
 
 .card-img {
