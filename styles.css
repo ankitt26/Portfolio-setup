@@ -247,6 +247,7 @@ a:active {
 
 .box2-ul {
   list-style: none;
+  height: 20px;
 }
 
 .html {
@@ -255,24 +256,39 @@ a:active {
   right: 37px;
   color: #6070ff;
   font-size: 13px;
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
+  width: 54px;
+  background: #ebebff;
+  border-radius: 8px;
+  text-align: center;
 }
 
 .css {
   position: relative;
+  bottom: 24px;
+  left: 24px;
   color: #6070ff;
   font-size: 13px;
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
+  clear: left;
+  width: 48px;
+  text-align: center;
+  background: #ebebff;
+  border-radius: 8px;
 }
 
 .javaScript {
   float: right;
   position: relative;
-  bottom: 23px;
-  right: 80px;
+  bottom: 48px;
+  right: 88px;
   color: #6070ff;
   font-size: 13px;
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 85px;
+  background: #ebebff;
+  border-radius: 8px;
 }
 
 .big-btn {
