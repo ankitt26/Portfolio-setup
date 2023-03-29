@@ -253,10 +253,16 @@ a:active {
   float: left;
   position: relative;
   right: 37px;
+  color: #6070ff;
+  font-size: 13px;
+  font-family: 'Poppins',sans-serif;
 }
 
 .css {
-  margin-left: 2px;
+  position: relative;
+  color: #6070ff;
+  font-size: 13px;
+  font-family: 'Poppins',sans-serif;
 }
 
 .javaScript {
@@ -264,6 +270,9 @@ a:active {
   position: relative;
   bottom: 23px;
   right: 80px;
+  color: #6070ff;
+  font-size: 13px;
+  font-family: 'Poppins',sans-serif;
 }
 
 .big-btn {
