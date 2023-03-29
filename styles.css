@@ -441,3 +441,43 @@ p.contact_paragraph {
   margin-top: 30px;
   
 }
+label {
+  display: none;
+}
+.form-section {
+  display: flex;
+  flex-direction: column;
+  
+}
+.form-section input{
+  width: 273px;
+  margin: 10px 30px ;
+  height: 48px;
+  padding: 5px;
+  font-size: 17px;
+  line-height: 20px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
+.form-section textarea {
+  width: 273px;
+  height: 170px;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 8px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  margin: 30px;
+}
+.form-section button {
+  color: #6070FF;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 400;
+  align-items: center;
+padding: 12px 16px;
+background: #FFFFFF;
+border-radius: 8px;
+width: 50%;
+margin: 10px 30px;
+}
