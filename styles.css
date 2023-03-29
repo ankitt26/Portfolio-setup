@@ -354,7 +354,7 @@ a:active {
 .section2-ul {
   display: flex;
   flex-direction: column;
-  width: 332px;
+  width: 334px;
   height: 650px;
   background-color: #fff;
   margin-top: -1px;
@@ -436,7 +436,7 @@ footer {
   gap: 20px;
   margin: 0px;
   width: 375px;
-  margin-top: -17px;
+  margin-top: -90px;
   background: #6070ff;
   border-top-left-radius: 100px;
   background-image: url(./images/contact\ form\ shapes-mobile@2x.png);
@@ -444,8 +444,6 @@ footer {
   background-position-x: 158px;
   background-position-y: 25px;
   background-repeat: no-repeat;
-  position: relative;
-  bottom: 74px;
 }
 .contact_paragraph {
   font-family: "Poppins", sans-serif;
