@@ -246,29 +246,24 @@ a:active {
 }
 
 .box2-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1px;
-  gap: 8px;
-  width: 214px;
-  height: 24px;
   list-style: none;
 }
 
-.box2-li {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  background: #ebebff;
-  border-radius: 8px;
-  border: none;
-  padding: 5px;
+.html {
+  float: left;
+  position: relative;
+  right: 37px;
+}
+
+.css {
+  margin-left: 2px;
+}
+
+.javaScript {
+  float: right;
+  position: relative;
+  bottom: 23px;
+  right: 80px;
 }
 
 .big-btn {
