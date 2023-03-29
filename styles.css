@@ -355,7 +355,7 @@ a:active {
   display: flex;
   flex-direction: column;
   width: 332px;
-  height: 572px;
+  height: 650px;
   background-color: #fff;
   margin-top: -1px;
 }
@@ -444,6 +444,8 @@ footer {
   background-position-x: 158px;
   background-position-y: 25px;
   background-repeat: no-repeat;
+  position: relative;
+  bottom: 74px;
 }
 .contact_paragraph {
   font-family: "Poppins", sans-serif;
