@@ -91,6 +91,7 @@ body {
   line-height: 24px;
   padding-left: 26px;
   color: #6070ff;
+  text-decoration: none;
 }
 
 .social {
@@ -107,47 +108,6 @@ body {
 
 .meta {
   margin-top: 3px;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-  background-color: #fff;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-.connect:hover {
-  text-decoration: none;
-  color: rgb(233, 148, 148);
-}
-
-.connect:active {
-  text-decoration: none;
-  color: rgb(223, 223, 223);
-}
-
-#logo:hover {
-  text-decoration: none;
-  color: rgb(233, 148, 148);
-}
-
-button:hover {
-  text-decoration: none;
-  color: rgb(233, 148, 148);
-}
-
-button:active {
-  background-color: rgba(51, 51, 233, 0.864);
-  color: white;
-}
-
-a:active {
-  text-decoration: none;
-  color: rgba(51, 51, 233, 0.864);
 }
 
 /* work section */
@@ -175,10 +135,6 @@ a:active {
   height: 220px;
   border-radius: 8px;
 }
-
-/* .block1 {
-  margin-bottom: 0px;
-} */
 
 .block2 {
   display: flex;
@@ -494,7 +450,6 @@ label {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin: 10px 30px 20px 30px;
-  color: #b3bac5;
 }
 .contact_button {
   width: 133px;
@@ -513,7 +468,33 @@ label {
   margin-bottom: 40px;
 }
 
-.contact_button:hover {
-  text-decoration: none;
-  color: rgb(233, 148, 148);
+/* button color */
+
+#logo:hover {
+  color: #fff;
+}
+#logo:active {
+  color: rgb(184, 184, 184);
+}
+
+.connect:hover {
+  color: #fff;
+}
+.connect:active {
+  color: rgb(184, 184, 184);
+}
+
+.about-connect:hover {
+  color: #cfd8dc;
+}
+
+.btn_btn:hover {
+  color: #fff;
+  background-color: #6070ff;
+  border: 1px solid #fff;
+}
+.btn_btn:active {
+  color: #fff;
+  background-color: #2230d2;
+  border: 1px solid #fff;
 }
