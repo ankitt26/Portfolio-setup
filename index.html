@@ -311,14 +311,22 @@
           id="name"
           placeholder="name"
           maxlength="30"
+          name="user_name"
           required
         />
 
-        <input type="email" id="email" placeholder="xyz@gmail.com" required />
+        <input
+          type="email"
+          id="email"
+          placeholder="xyz@gmail.com"
+          name="user_email"
+          required
+        />
         <textarea
           id="message"
           maxlength="500"
           placeholder="Write your message here."
+          name="user_message"
           required
         ></textarea>
         <button class="contact_button btn_btn" type="submit">
