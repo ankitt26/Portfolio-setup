@@ -509,9 +509,7 @@
   }
 }
 
-/*----------------------------------------------------------------------------------- */
-/*------------------------------Desktop_version-------------------------------------- */
-/*----------------------------------------------------------------------------------- */
+/* ---------------------------- Desktop_version ------------------------------------- */
 
 @media only screen and (min-width: 768px) {
   body {
@@ -572,7 +570,7 @@
   .navbar_li {
     width: 62px;
     height: 20px;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -590,9 +588,6 @@
     height: 800px;
     padding-top: 10px;
     background: #fff;
-  }
-
-  .main-section {
     background-image: url(./images/Header\ bg@2x.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -603,7 +598,7 @@
   .primary-text {
     max-width: 470px;
     height: 122px;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -618,7 +613,7 @@
 
   .paragraph {
     max-width: 920px;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -630,7 +625,7 @@
   .connect {
     width: 117px;
     height: 24px;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -674,26 +669,17 @@
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 20px;
     border: 2px solid white;
     border-radius: 20px;
     margin: 100px;
     background-color: #fff;
   }
 
-  .card2 .block1 {
+  .Aa {
     order: 2;
   }
 
-  .card2 .block2 {
-    order: 1;
-  }
-
-  .card4 .block1 {
-    order: 2;
-  }
-
-  .card4 .block2 {
+  .Bb {
     order: 1;
   }
 
@@ -718,7 +704,7 @@
   .box1 {
     display: flex;
     flex-direction: column;
-    margin: 40px 0px;
+    margin: 40px -1px;
     position: relative;
     bottom: 27px;
   }
@@ -726,7 +712,7 @@
   .title1 {
     width: 100%;
     height: 46px;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -739,7 +725,7 @@
     align-items: center;
     padding: 1px 40px;
     height: 32px;
-    margin-top: 0px;
+    margin-top: -1px;
     margin-left: -55px;
   }
 
@@ -956,9 +942,6 @@
     height: 750px;
     background-color: #6070ff;
     border-top-left-radius: 100px;
-  }
-
-  footer {
     background-image: url(./images/contact\ form\ background\ shapes@2x.png);
     background-size: 100%;
     background-position-y: 80px;
