@@ -721,7 +721,6 @@
     padding: 30px;
     width: 100%;
   }
-  
 
   .block2 {
     display: flex;
@@ -1119,5 +1118,6 @@
 }
 
 .card-img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
+  transition: transform 0.6s ease-in-out;
 }
