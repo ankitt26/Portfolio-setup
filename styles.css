@@ -15,7 +15,7 @@
     justify-content: space-between;
     padding-top: 25px;
     padding-bottom: 25px;
-    width: 375px;
+    width: 100%;
     background-color: #fff;
   }
 
@@ -52,13 +52,15 @@
   .main-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-image: url(./images/mobie.png);
-    width: 375px;
-    height: 700px;
+    width: 100%;
+    height: 680px;
     left: 0;
     top: 75px;
     margin-bottom: 20px;
     background-color: #fff;
+    background-size: 100%;
     background-repeat: no-repeat;
   }
 
@@ -99,6 +101,7 @@
     line-height: 24px;
     padding-left: 26px;
     color: #6070ff;
+    margin-right: 167px;
     text-decoration: none;
   }
 
@@ -112,6 +115,7 @@
     padding-left: 28px;
     position: relative;
     bottom: 22px;
+    right: 75px;
   }
 
   .meta {
@@ -277,12 +281,21 @@
 
   /* About Myself */
 
+  .desktop-v {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-top-right-radius: 100px;
+    margin-top: 150px;
+  }
+
   .section1 {
     display: flex;
     flex-direction: column;
     width: 375px;
     height: 551.15px;
-    margin-top: 117px;
     background-color: #fff;
     border-top-right-radius: 85px;
   }
@@ -299,6 +312,11 @@
   .about-connect {
     position: relative;
     bottom: 30px;
+  }
+
+  .about-social {
+    position: relative;
+    left: 1px;
   }
 
   .about-btn {
@@ -404,14 +422,12 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    width: 375px;
+    width: 100%;
     margin-top: -90px;
     background: #6070ff;
     border-top-left-radius: 100px;
     background-image: url(./images/contact\ form\ shapes-mobile@2x.png);
-    background-size: 217px;
-    background-position-x: 158px;
-    background-position-y: 25px;
+    background-size: 100%;
     background-repeat: no-repeat;
   }
 
@@ -485,26 +501,26 @@
     color: #396df2;
     background-color: #fff;
     position: relative;
-    left: 27px;
+    left: 30px;
     margin-bottom: 40px;
   }
 
   /* button color */
 
   #logo:hover {
-    color: #fff;
+    color: rgb(184, 184, 184);
   }
 
   #logo:active {
-    color: rgb(184, 184, 184);
+    color: rgb(126, 126, 126);
   }
 
   .connect:hover {
-    color: #fff;
+    color: rgb(184, 184, 184);
   }
 
   .connect:active {
-    color: rgb(184, 184, 184);
+    color: rgb(126, 126, 126);
   }
 
   .about-connect:hover {
