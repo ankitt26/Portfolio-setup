@@ -184,19 +184,26 @@
 
   .A {
     margin-right: -39px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #344563;
   }
 
-  .Li {
-    width: 107px;
-    height: 16px;
+  .BC {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
+    color: #7a869a;
+  }
+  .Li {
+    width: 107px;
+    height: 16px;
     line-height: 16px;
     padding-left: 18px;
     list-style: none;
-    color: #7a869a;
   }
 
   .box2 {
@@ -545,8 +552,7 @@
     font-size: 25px;
     line-height: 20px;
     color: #6070ff;
-    margin-left: -122px;
-    left: 10px;
+    margin-left: -12%;
   }
 
   .union {
@@ -564,7 +570,7 @@
     gap: 8px;
     padding-left: 30px;
     position: relative;
-    left: 70px;
+    left: 40%;
   }
 
   .navbar_li {
@@ -586,12 +592,12 @@
     flex-direction: column;
     width: 100%;
     height: 800px;
-    padding-top: 10px;
+    padding-top: 88px;
     background: #fff;
     background-image: url(./images/Header\ bg@2x.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position-y: 24px;
+    background-position-y: 60px;
     background-position-x: center;
   }
 
@@ -608,18 +614,18 @@
     color: #091e42;
     line-height: 60px;
     margin-top: 200px;
-    margin-left: 10%;
+    margin-left: 17%;
   }
 
   .paragraph {
-    max-width: 920px;
+    max-width: 72%;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #344563;
-    margin: -25px 30px -8px 10%;
+    margin: -25px 30px -8px 17%;
   }
 
   .connect {
@@ -632,7 +638,7 @@
     line-height: 24px;
     color: #7f8cff;
     margin-top: -25px;
-    margin-left: 10%;
+    margin-left: 17%;
     text-decoration: none;
   }
 
@@ -643,10 +649,10 @@
     width: 170.17px;
     height: 20px;
     list-style: none;
-    padding-left: 28px;
+    padding-left: 30px;
     position: relative;
-    bottom: 22px;
-    margin-left: 8%;
+    bottom: 20px;
+    margin-left: 15%;
   }
 
   .meta {
@@ -731,19 +737,26 @@
 
   .A {
     margin-right: -39px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #344563;
   }
 
-  .Li {
-    width: 107px;
-    height: 16px;
+  .BC {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
+    color: #7a869a;
+  }
+  .Li {
+    width: 107px;
+    height: 16px;
     line-height: 16px;
     padding-left: 18px;
     list-style: none;
-    color: #7a869a;
   }
 
   .box2 {
@@ -805,6 +818,7 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #396df2;
+    background-color: #fff;
   }
 
   .icon {
@@ -832,7 +846,7 @@
   .section1 {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     height: 1000px;
     background-color: #fff;
     padding: 30px;
@@ -849,6 +863,17 @@
     top: 20px;
   }
 
+  .about-para {
+    max-width: 72%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin: -25px 30px -8px 17%;
+  }
+
   .about-btn {
     width: 166px;
     height: 45px;
@@ -861,14 +886,14 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #396df2;
-    margin-left: 44px;
+    background-color: #fff;
+    margin-left: 17%;
     margin-top: 39px;
   }
 
   .section2 {
-    width: 50%;
-    padding: 30px;
-    padding-left: 1px;
+    width: 60%;
+    padding: 30px 1px;
     background: #fff;
     border-top-right-radius: 100px;
   }
@@ -898,7 +923,7 @@
     font-weight: 600;
     font-size: 20px;
     align-items: center;
-    color: #000;
+    color: #344563;
   }
 
   .icon2 {
@@ -911,10 +936,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 54%;
   }
 
   .lan {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
     text-align: center;
     width: 129px;
     height: 108px;
@@ -973,6 +1004,7 @@
   .form-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .form-section input {
@@ -1012,13 +1044,12 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #396df2;
-    position: relative;
-    left: 27px;
+    background-color: #fff;
     margin-bottom: 40px;
   }
 
   #logo:hover {
-    color: #fff;
+    color: rgb(184, 184, 184);
   }
 
   #logo:active {
@@ -1026,7 +1057,7 @@
   }
 
   .connect:hover {
-    color: #fff;
+    color: #cfd8dc;
   }
 
   .connect:active {
