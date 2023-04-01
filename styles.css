@@ -1099,3 +1099,20 @@
     border: 1px solid #fff;
   }
 }
+#logo {
+  animation: rotate 2s 1 linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+    font-size: 50px;
+    color: #2230d2;
+  }
+
+  to {
+    transform: rotate(360deg);
+    font-size: 20px;
+    color: #6070ff;
+  }
+}
