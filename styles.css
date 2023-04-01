@@ -721,6 +721,7 @@
     padding: 30px;
     width: 100%;
   }
+  
 
   .block2 {
     display: flex;
@@ -1115,4 +1116,8 @@
     font-size: 20px;
     color: #6070ff;
   }
+}
+
+.card-img:hover {
+  transform: scale(1.1);
 }
