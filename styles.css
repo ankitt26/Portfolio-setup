@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.9px) {
   body {
     background: #e5e5e5;
     margin: 0;
@@ -600,6 +600,7 @@
     background-repeat: no-repeat;
     background-position-y: 60px;
     background-position-x: center;
+    border-bottom-left-radius: 100px;
   }
 
   .primary-text {
@@ -904,7 +905,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 98%;
+    width: 92%;
     background-color: #fff;
     margin-top: 222px;
     align-self: left;
