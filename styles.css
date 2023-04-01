@@ -690,9 +690,6 @@
     width: 100%;
     background-color: #e5e5e5;
     display: grid;
-
-    /* grid-template-rows: 1fr 1fr; */
-
     padding-top: 132px;
     padding-bottom: 132px;
   }
@@ -854,10 +851,6 @@
     bottom: 1px;
     right: 1px;
   }
-
-  /* .section {
-    margin-top: 50px;
-  } */
 
   /* about page  */
 
