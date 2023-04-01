@@ -14,7 +14,9 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 25px;
+    padding-bottom: 25px;
     width: 375px;
+    background-color: #fff;
   }
 
   .union {
@@ -52,11 +54,12 @@
     flex-direction: column;
     background-image: url(./images/mobie.png);
     width: 375px;
-    height: 616.15px;
+    height: 700px;
     left: 0;
     top: 75px;
     margin-bottom: 20px;
-    margin-top: 30px;
+    background-color: #fff;
+    background-repeat: no-repeat;
   }
 
   .primary-text {
@@ -122,6 +125,7 @@
     grid-template-rows: repeat(3, 1fr);
     row-gap: 60px;
     align-items: center;
+    margin-top: 100px;
     width: 337px;
   }
 
@@ -260,6 +264,7 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #396df2;
+    background-color: #fff;
   }
 
   .icon {
@@ -308,6 +313,7 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #396df2;
+    background-color: #fff;
     position: relative;
     left: 27px;
   }
@@ -477,6 +483,7 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #396df2;
+    background-color: #fff;
     position: relative;
     left: 27px;
     margin-bottom: 40px;
