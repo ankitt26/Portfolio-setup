@@ -149,7 +149,7 @@ coming soon
 
 ### Deployment
 
-coming soon
+https://ankitt26.github.io/Portfolio-setup/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,9 +169,8 @@ coming soon
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add responsive for big screen .
-- [ ] Add footer.
-- [ ] Add links .
+- [ ] Add javascript
+- [ ] Add links
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
