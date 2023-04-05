@@ -453,10 +453,6 @@
     margin-top: 100px;
   }
 
-  label {
-    display: none;
-  }
-
   .form-section {
     display: flex;
     flex-direction: column;
@@ -473,7 +469,7 @@
     border-radius: 8px;
   }
 
-  label {
+  .label {
     display: none;
   }
 
@@ -1041,10 +1037,6 @@
     border-radius: 8px;
   }
 
-  label {
-    display: none;
-  }
-
   #message {
     width: 400px;
     height: 123px;
@@ -1106,4 +1098,8 @@
     background-color: #2230d2;
     border: 1px solid #fff;
   }
+}
+
+.label {
+  display: none;
 }
