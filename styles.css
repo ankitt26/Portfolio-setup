@@ -100,7 +100,7 @@
     font-size: 22px;
     line-height: 24px;
     padding-left: 26px;
-    color: #6070ff;
+    color: #1a30ff;
     margin-right: 167px;
     text-decoration: none;
   }
@@ -204,7 +204,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
-    color: #7a869a;
+    color: #4b5563;
   }
 
   .Li {
@@ -248,7 +248,7 @@
     font-size: 13px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #384cff;
     background: #ebebff;
     border-radius: 8px;
     border: none;
@@ -471,6 +471,10 @@
     line-height: 20px;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
+  }
+
+  label {
+    display: none;
   }
 
   #message {
@@ -771,7 +775,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
-    color: #7a869a;
+    color: #4b5563;
   }
 
   .Li {
@@ -1035,6 +1039,10 @@
     line-height: 20px;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
+  }
+
+  label {
+    display: none;
   }
 
   #message {
