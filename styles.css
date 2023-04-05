@@ -613,10 +613,9 @@
   }
 
   .navbar_li a:hover {
-    background: #6070ff;
-    color: #fff;
-    border-radius: 10%;
-    padding: 8px 5px;
+    color: #6070ff;
+    font-size: 16px;
+    border-radius: 10px;
   }
 
   /* main-section */
@@ -671,7 +670,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #384cff;
     margin-top: -25px;
     margin-left: 17%;
     text-decoration: none;
@@ -831,7 +830,7 @@
     font-size: 13px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #384cff;
     background: #ebebff;
     border-radius: 8px;
     border: none;
@@ -1000,7 +999,7 @@
     gap: 20px;
     width: 100%;
     height: 750px;
-    background-color: #6070ff;
+    background-color: #3d49b8;
     border-top-left-radius: 100px;
     background-image: url(./images/contact\ form\ background\ shapes@2x.png);
     background-size: 100%;
@@ -1016,7 +1015,7 @@
     line-height: 28px;
     text-align: center;
     width: 540px;
-    color: #ebebff;
+    color: #fff;
     margin-top: -31px;
   }
 
