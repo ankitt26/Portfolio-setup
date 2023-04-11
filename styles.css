@@ -538,6 +538,61 @@
     background-color: #2230d2;
     border: 1px solid #fff;
   }
+
+  /* mobile menu  */
+
+  .mobile-menu {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30%;
+    padding-left: 10%;
+    list-style: none;
+    gap: 32px;
+    position: absolute;
+    letter-spacing: 3px;
+    top: -4%;
+    left: 0%;
+    width: 90%;
+    height: 640px;
+    overflow: visible;
+    background-color: #6070ff;
+    opacity: 0.9;
+    z-index: 1;
+  }
+
+  .mobile-back {
+    filter: blur(3px);
+  }
+
+  .img_remove {
+    visibility: hidden;
+  }
+
+  #cross {
+    position: relative;
+    left: 80%;
+    bottom: 12%;
+    width: 9px;
+    color: #fff;
+    font-size: 54px;
+    font-weight: 100;
+  }
+
+  .navbar_li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .navbar_li a:active {
+    text-decoration: none;
+    color: #a6adea;
+  }
 }
 
 /* ---------------------------- Desktop_version ------------------------------------- */
@@ -933,7 +988,6 @@
     width: 92%;
     background-color: #fff;
     margin-top: 222px;
-    align-self: left;
   }
 
   .section2-li {

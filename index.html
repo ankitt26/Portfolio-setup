@@ -12,6 +12,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
     integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous" />
+
+
+
 </head>
 
 <body>
@@ -20,9 +23,9 @@
     <nav class="nav">
       <img class="union" src="images/Union.png" alt="img" />
       <ul class="top_navbar">
-        <li class="navbar_li"><a href="#">Portfolio</a></li>
-        <li class="navbar_li"><a href="#">About</a></li>
-        <li class="navbar_li"><a href="#">Contact</a></li>
+        <li class="navbar_li"><a href="#portfolio">Portfolio</a></li>
+        <li class="navbar_li"><a href="#about">About</a></li>
+        <li class="navbar_li"><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -68,7 +71,7 @@
   </section>
 
   <!-- Work section !-->
-  <section class="works">
+  <section class="works" id="portfolio">
     <div class="cards">
       <div class="block1">
         <img class="card-img" src="images/Snapshoot.png" alt="tonic project" />
@@ -198,7 +201,7 @@
   </section>
 
   <!-- about myself -->
-  <div class="desktop-v">
+  <div class="desktop-v" id="about">
     <section class="section1">
       <h2 class="primary-text" id="about-text">About Myself</h2>
       <p class="paragraph about-para">
@@ -275,7 +278,7 @@
   </div>
   <!-- footer -->
 
-  <footer>
+  <footer id="contact">
     <h2 class="contact_title">Contact me</h2>
     <p class="contact_paragraph">
       If you have an application you are interested in developing, a feature
@@ -297,6 +300,9 @@
       </button>
     </form>
   </footer>
+
+  <script src="./index.js"></script>
+
 </body>
 
 </html>
