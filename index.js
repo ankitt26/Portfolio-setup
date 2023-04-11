@@ -25,4 +25,12 @@ union.addEventListener('click', () => {
     union.classList.remove('img_remove');
     cross2.remove();
   });
+  
+  navbar.addEventListener('click', () => {
+    navbar.classList.remove('mobile-menu');
+    logo.classList.remove('mobile-back');
+    main.classList.remove('mobile-back');
+    union.classList.remove('img_remove');
+    cross2.remove();
+  });
 });
