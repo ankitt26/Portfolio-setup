@@ -1,7 +1,7 @@
 {
   "name": "portfolio-setup",
   "version": "1.0.0",
-  "description": "",
+  "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/ankitt26/Portfolio-setup#readme",
   "devDependencies": {
-    "hint": "^7.1.5",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.8",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
