@@ -17,4 +17,15 @@ union.addEventListener("click", function () {
   navbar.prepend(cross);
 
   let cross2 = document.querySelector("#cross");
+  cross2.addEventListener("click", function () {
+    // alert("go for it");
+    navbar.classList.remove("mobile-menu");
+    logo.classList.remove("mobile-back");
+    main.classList.remove("mobile-back");
+    union.classList.remove("img_remove");
+    cross2.remove();
+  });
+
 });
+
+

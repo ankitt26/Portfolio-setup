@@ -573,6 +573,27 @@
   .img_remove {
     visibility: hidden;
   }
+
+  #cross {
+    position: relative;
+    left: 80%;
+    bottom: 12%;
+    width: 9px;
+    color: #fff;
+    font-size: 54px;
+    font-weight: 100;
+  }
+
+  .navbar_li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .navbar_li a:active {
+    text-decoration: none;
+    color: #a6adea;
+  }
+
 }
 
 /* ---------------------------- Desktop_version ------------------------------------- */
