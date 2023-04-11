@@ -32,4 +32,4 @@ union.addEventListener('click', () => {
     union.classList.remove('img_remove');
     cross2.remove();
   });
-  });
+});
