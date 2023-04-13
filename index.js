@@ -34,61 +34,6 @@ union.addEventListener('click', () => {
 
 //  pop up window day-2
 
-const popup = document.querySelectorAll('.big-btn');
-
-const doc = document.createElement('div');
-doc.setAttribute('id', 'popup_window');
-
-doc.innerHTML = `<div class="popup">
-<button id="pop-close">x</button>
-<div class="">
-  <h2 class="title1">Tonic</h2>
-  <ul class="frame1" id="pop-frame">
-    <li class="A Li">CANOPY</li>
-    <li class="BC Li">
-      <i class="bi bi-circle-fill icon"></i> Back End dev
-    </li>
-    <li class="BC Li"><i class="bi bi-circle-fill icon"></i> 2019</li>
-  </ul>
-  <img
-    class="card-img"
-    id="pop-img"
-    src="images/Snapshoot3.png"
-    alt="Tonic project"
-  />
-</div>
-<div class="pop-box1">
-  <p class="pop-para">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et corrupti
-    nisi sit neque minus est voluptate, repudiandae accusantium voluptatem
-    sint atque illum pariatur? Animi magni mollitia quaerat ad atque sint
-    beatae omnis, harum minima consequatur accusantium repudiandae facilis
-    consectetur vel, fugit itaque adipisci aut veritatis ullam expedita
-    alias odit suscipit incidunt! Tenetur officia inventore iure
-    temporibus dolores quae omnis ipsa quis doloremque, expedita debitis
-    hic nesciunt consequatur quia, voluptatibus voluptatem! Repellendus,
-    molestiae ullam aperiam iste praesentium autem nostrum voluptate
-    quidem maxime reiciendis in totam, nulla perferendis rerum soluta
-    fugit omnis. Reiciendis, tempora. Eaque ipsa debitis tempore provident
-    quas tempora soluta.
-  </p>
-  <div class="small-box">
-    <ul class="box2-ul pop-ul">
-      <li class="box2-li pop-li">HTML</li>
-      <li class="box2-li pop-li">Css</li>
-      <li class="box2-li pop-li">JavaScript</li>
-      <li class="box2-li pop-li">HTML</li>
-      <li class="box2-li pop-li">Css</li>
-      <li class="box2-li pop-li">JavaScript</li>
-    </ul>
-    <div class="pop-buttons">
-      <button class="big-btn btn_btn">See Live</button>
-      <button class="big-btn btn_btn pop-btn">See source</button>
-    </div>
-  </div>
-</div>
-</div>`;
-
 // function blur() {
 //   const header = document.querySelector(".header");
 //   const mainSection = document.querySelector(".main-section");
@@ -103,19 +48,181 @@ doc.innerHTML = `<div class="popup">
 // contact.classList.toggle("all");
 // }
 
+const popup = document.querySelectorAll('.big-btn');
+
+const doc = document.createElement('div');
+doc.setAttribute('id', 'popup_window');
+
 const header = document.querySelector('.header');
 const mainSection = document.querySelector('.main-section');
 const works = document.querySelector('.works');
 const about = document.querySelector('#about');
 const contact = document.querySelector('#contact');
 
-for (let i = 0; i < popup.length; i++) {
+for (let i = 0; i < popup.length; i += 1) {
   popup[i].addEventListener('click', () => {
+    const cardid = document.querySelectorAll('.cards')[i].id;
+
     header.classList.add('all');
     mainSection.classList.add('all');
     works.classList.add('all');
     about.classList.add('all');
     contact.classList.add('all');
+
+    const projects = [
+      {
+        id: 1,
+        key: 'one1',
+        heading: 'Tonic',
+
+        frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
+
+        img: 'images/Snapshoot.png',
+        alt: 'Tonic project',
+        para1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        para2: 'Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'bootstrap',
+          li5: 'query',
+          li6: 'react.js',
+        },
+      },
+
+      {
+        id: 2,
+        key: 'two2',
+        heading: 'Multipost',
+
+        frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
+
+        img: 'images/Snapshoot2.png',
+        alt: 'Multipost project',
+        para1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        para2: 'Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'bootstrap',
+          li5: 'query',
+          li6: 'react.js',
+        },
+      },
+
+      {
+        id: 3,
+        key: 'three3',
+        heading: 'Tonic',
+
+        frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
+
+        img: 'images/Snapshoot3.png',
+        alt: 'Tonic project',
+        para1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        para2: 'Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'bootstrap',
+          li5: 'query',
+          li6: 'react.js',
+        },
+      },
+
+      {
+        id: 4,
+        key: 'four4',
+        heading: 'Gateway',
+
+        frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
+
+        img: 'images/Snapshoot4.png',
+        alt: 'gateway project',
+        para1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        para2: 'Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'bootstrap',
+          li5: 'query',
+          li6: 'react.js',
+        },
+      },
+    ];
+
+    projects.forEach((value, index) => {
+      // console.log(value.key , index)
+      if (value.key === cardid) {
+        doc.innerHTML = `<div class="popup">
+        <button id="pop-close">&times;</button>
+        <div class="">
+          <h2 class="title1"> ${projects[index].heading}</h2>
+          <ul class="frame1" id="pop-frame">
+            <li class="A Li">${projects[index].frame.li1}</li>
+            <li class="BC Li">
+              <i class="bi bi-circle-fill icon"></i> ${projects[index].frame.li2}
+            </li>
+            <li class="BC Li"><i class="bi bi-circle-fill icon"></i> ${projects[index].frame.li3}</li>
+          </ul>
+          <img
+            class="card-img"
+            id="pop-img"
+            src=${projects[index].img}
+            alt=${projects[index].alt}
+          />
+        </div>
+        <div class="pop-box1">
+          <p class="pop-para">
+          ${projects[index].para1}
+          <br>
+          <br>
+          ${projects[index].para1}
+          </p>
+          <div class="small-box">
+            <ul class="box2-ul pop-ul">
+              <li class="box2-li pop-li">${projects[index].language.li1}</li>
+              <li class="box2-li pop-li">${projects[index].language.li2}</li>
+              <li class="box2-li pop-li">${projects[index].language.li3}</li>
+              </ul>
+              <ul class="box2-ul pop-ul">
+              <li class="box2-li pop-li">${projects[index].language.li4}</li>
+              <li class="box2-li pop-li">${projects[index].language.li5}</li>
+              <li class="box2-li pop-li">${projects[index].language.li6}</li>
+            </ul>
+            <div class="pop-buttons">
+              <button class="big-btn btn_btn pop-btn">See Live  <i class="bi bi-arrow-up-right-circle-fill"></i> </button>
+              <button class="big-btn btn_btn pop-btn">See source  <i class="bi bi-github"></i> </button>
+            </div>
+          </div>
+        </div>
+        </div>`;
+      }
+    });
+
+    // console.log(projects[0].id)
+    // console.log(projects[0].key)
+    // console.log(projects[0].heading)
+    // console.log(projects[0].frame.li1)
+    // console.log(projects[0].frame.li2)
+    // console.log(projects[0].frame.li3)
+    // console.log(projects[0].img)
+    // console.log(projects[0].alt)
+    // console.log(projects[0].para)
+    // console.log(projects[0].language.li1)
+    // console.log(projects[0].language.li2)
+    // console.log(projects[0].language.li3)
+    // console.log(projects[0].language.li4)
+    // console.log(projects[0].language.li5)
+    // console.log(projects[0].language.li6)
 
     document.body.prepend(doc);
 

@@ -253,7 +253,7 @@
     background: #ebebff;
     border-radius: 8px;
     border: none;
-    padding: 5px;
+    padding: 6px;
   }
 
   .big-btn {
@@ -1174,7 +1174,7 @@
 /* pop up */
 
 .all {
-  filter: blur(4px);
+  filter: blur(8px);
   background: #c1c7d0;
 }
 
@@ -1195,19 +1195,20 @@
 
 .popup {
   width: 80%;
-  height: 130%;
+
+  /* height: 130%; */
   background-color: #fff;
   padding: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 #pop-close {
   float: right;
   background: #fff;
   border: none;
-  font-size: 20px;
+  font-size: 30px;
   color: #67798e;
 }
 
@@ -1221,23 +1222,24 @@
   height: 100%;
 }
 
-.pop-ul {
-  flex-wrap: wrap;
-  width: 300px;
-}
-
 .pop-btn {
-  margin-left: 5px;
+  margin-left: 2px;
+  width: 145px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .pop-buttons {
-  position: relative;
-  top: 70px;
-  padding-top: 14px;
+  margin-top: 25px;
+  padding-top: 5px;
   border-top: 1.5px solid #ebecf0;
 }
 
 @media only screen and (max-width: 767.9px) {
+  .popup {
+    height: 120%;
+  }
+
   .pop-para {
     width: 95%;
     font-family: "Poppins", sans-serif;
@@ -1246,9 +1248,23 @@
     font-size: 16px;
     line-height: 24px;
   }
+
+  .pop-ul {
+    flex-wrap: wrap;
+    width: 300px;
+    height: 20px;
+  }
+
+  .small-box {
+    margin-top: 30px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
+  .popup {
+    height: 130%;
+  }
+
   .pop-para {
     max-width: 70%;
     font-family: "Poppins", sans-serif;
@@ -1256,6 +1272,11 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .pop-ul {
+    width: 300px;
+    height: 1px;
   }
 
   .pop-box1 {
@@ -1268,5 +1289,6 @@
     display: flex;
     flex-direction: column;
     padding-left: 15px;
+    margin-top: 20px;
   }
 }
