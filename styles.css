@@ -1179,33 +1179,26 @@
 }
 
 #popup_window {
-  display: flex;
-  justify-content: center;
   position: fixed;
-  top: 0.1%;
-  bottom: 0.1%;
-  overflow-y: scroll;
-  height: 2000px;
-  opacity: 1;
-  transition: 0.5s;
-  transition-property: none;
-  filter: none;
-  z-index: 2;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
 }
 
 .popup {
-  width: 80%;
-
-  /* height: 130%; */
   background-color: #fff;
-  padding: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 4% auto;
+  padding: 5px 25px 40px 25px;
   border-radius: 20px;
+  width: 85%;
 }
 
 #pop-close {
   float: right;
+  margin-top: 18px;
   background: #fff;
   border: none;
   font-size: 30px;
@@ -1237,16 +1230,21 @@
 
 @media only screen and (max-width: 767.9px) {
   .popup {
-    height: 120%;
+    background-color: #fff;
+    margin: 8% auto;
+    padding: 10px 15px 40px 15px;
+    border-radius: 20px;
+    width: 83%;
   }
 
   .pop-para {
     width: 95%;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 15px;
     line-height: 24px;
+    color: #344563;
   }
 
   .pop-ul {
@@ -1261,17 +1259,17 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .popup {
-    height: 130%;
-  }
-
   .pop-para {
-    max-width: 70%;
+    max-width: 65%;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 30px;
+  }
+
+  #pop-img {
+    margin-top: 20px;
   }
 
   .pop-ul {
@@ -1288,7 +1286,7 @@
   .small-box {
     display: flex;
     flex-direction: column;
-    padding-left: 15px;
+    padding-left: 20px;
     margin-top: 20px;
   }
 }

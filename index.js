@@ -34,20 +34,6 @@ union.addEventListener('click', () => {
 
 //  pop up window day-2
 
-// function blur() {
-//   const header = document.querySelector(".header");
-//   const mainSection = document.querySelector(".main-section");
-//   const works = document.querySelector(".works");
-//   const about = document.querySelector("#about");
-//   const contact = document.querySelector("#contact");
-
-// header.classList.toggle("all");
-// mainSection.classList.toggle("all");
-// works.classList.toggle("all");
-// about.classList.toggle("all");
-// contact.classList.toggle("all");
-// }
-
 const popup = document.querySelectorAll('.big-btn');
 
 const doc = document.createElement('div');
@@ -90,6 +76,9 @@ for (let i = 0; i < popup.length; i += 1) {
           li5: 'query',
           li6: 'react.js',
         },
+
+        link: 'https://ankitt26.github.io/Portfolio-setup/',
+        code: 'https://github.com/ankitt26/Portfolio-setup',
       },
 
       {
@@ -112,6 +101,9 @@ for (let i = 0; i < popup.length; i += 1) {
           li5: 'query',
           li6: 'react.js',
         },
+
+        link: 'https://ankitt26.github.io/Portfolio-setup/',
+        code: 'https://github.com/ankitt26/Portfolio-setup',
       },
 
       {
@@ -134,6 +126,9 @@ for (let i = 0; i < popup.length; i += 1) {
           li5: 'query',
           li6: 'react.js',
         },
+
+        link: 'https://ankitt26.github.io/Portfolio-setup/',
+        code: 'https://github.com/ankitt26/Portfolio-setup',
       },
 
       {
@@ -156,11 +151,13 @@ for (let i = 0; i < popup.length; i += 1) {
           li5: 'query',
           li6: 'react.js',
         },
+
+        link: 'https://ankitt26.github.io/Portfolio-setup/',
+        code: 'https://github.com/ankitt26/Portfolio-setup',
       },
     ];
 
     projects.forEach((value, index) => {
-      // console.log(value.key , index)
       if (value.key === cardid) {
         doc.innerHTML = `<div class="popup">
         <button id="pop-close">&times;</button>
@@ -199,30 +196,14 @@ for (let i = 0; i < popup.length; i += 1) {
               <li class="box2-li pop-li">${projects[index].language.li6}</li>
             </ul>
             <div class="pop-buttons">
-              <button class="big-btn btn_btn pop-btn">See Live  <i class="bi bi-arrow-up-right-circle-fill"></i> </button>
-              <button class="big-btn btn_btn pop-btn">See source  <i class="bi bi-github"></i> </button>
+            <a href=${value.link}><button class="big-btn btn_btn pop-btn">See Live  <i class="bi bi-arrow-up-right-circle-fill"></i> </button></a>
+            <a href=${value.code}> <button class="big-btn btn_btn pop-btn">See source  <i class="bi bi-github"></i> </button></a>
             </div>
           </div>
         </div>
         </div>`;
       }
     });
-
-    // console.log(projects[0].id)
-    // console.log(projects[0].key)
-    // console.log(projects[0].heading)
-    // console.log(projects[0].frame.li1)
-    // console.log(projects[0].frame.li2)
-    // console.log(projects[0].frame.li3)
-    // console.log(projects[0].img)
-    // console.log(projects[0].alt)
-    // console.log(projects[0].para)
-    // console.log(projects[0].language.li1)
-    // console.log(projects[0].language.li2)
-    // console.log(projects[0].language.li3)
-    // console.log(projects[0].language.li4)
-    // console.log(projects[0].language.li5)
-    // console.log(projects[0].language.li6)
 
     document.body.prepend(doc);
 
