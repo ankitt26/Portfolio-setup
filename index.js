@@ -254,3 +254,14 @@ if (get != null) {
   form.email.value = obj1.cEmail;
   form.message.value = obj1.cMessage;
 }
+
+form.addEventListener('keypress', () => {
+  const obj = {
+    cName: form.name.value,
+    cEmail: form.email.value,
+    cMessage: form.message.value,
+  };
+
+  const contactStorage = JSON.stringify(obj);
+  localStorage.setItem('store', contactStorage);
+});
