@@ -1293,7 +1293,7 @@
 
 /* form validation */
 
-.error-message{
+.error-message {
   color: #d62b2b;
   margin: 3px 42px;
   position: relative;
@@ -1304,10 +1304,9 @@
   font-size: 14px;
 }
 
-@media only screen and (min-width:768px) {
-  .error-message{
+@media only screen and (min-width: 768px) {
+  .error-message {
     position: relative;
     bottom: 32px;
   }
-
 }
