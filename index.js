@@ -243,3 +243,14 @@ submit.addEventListener('click', (event) => {
     errordiv.innerHTML = '';
   }
 });
+
+// local storage //
+
+const get = localStorage.getItem('store');
+
+if (get != null) {
+  const obj1 = JSON.parse(get);
+  form.name.value = obj1.cName;
+  form.email.value = obj1.cEmail;
+  form.message.value = obj1.cMessage;
+}
