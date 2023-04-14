@@ -1290,3 +1290,24 @@
     margin-top: 20px;
   }
 }
+
+/* form validation */
+
+.error-message{
+  color: #d62b2b;
+  margin: 3px 42px;
+  position: relative;
+  bottom: 40px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+@media only screen and (min-width:768px) {
+  .error-message{
+    position: relative;
+    bottom: 32px;
+  }
+
+}
