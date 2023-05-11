@@ -8,7 +8,7 @@ const allCards = [
     block1: '',
     block2: '',
     frame: { li1: 'CANOPY', li2: 'Front End Dev', li3: '2023' },
-    para: ` A todo app is a software application that allows users to create and manage lists of tasks or activities they need to complete. `,
+    para: ' A todo app is a software application that allows users to create and manage lists of tasks or activities they need to complete. ',
     language: {
       li1: 'HTML',
       li2: 'Css',

@@ -68,9 +68,9 @@ for (let i = 0; i < popup.length; i += 1) {
         img: 'images/todo-2.png',
         alt: 'Todo Project project',
         para1:
-          "A todo app is a software application that allows users to create and manage lists of tasks or activities they need to complete. Users can create new tasks, set deadlines, assign priorities, and organize them into categories or projects. ",
+          'A todo app is a software application that allows users to create and manage lists of tasks or activities they need to complete. Users can create new tasks, set deadlines, assign priorities, and organize them into categories or projects. ',
         para2:
-          " The app can also provide features such as reminders, notifications, and progress tracking to help users stay on top of their tasks and complete them efficiently. Todo apps can be used for personal productivity, team collaboration, project management, or any other situation where task management is required.",
+          ' The app can also provide features such as reminders, notifications, and progress tracking to help users stay on top of their tasks and complete them efficiently. Todo apps can be used for personal productivity, team collaboration, project management, or any other situation where task management is required.',
 
         language: {
           li1: 'HTML',
