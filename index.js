@@ -76,6 +76,9 @@ for (let i = 0; i < popup.length; i += 1) {
           li1: 'HTML',
           li2: 'Css',
           li3: 'JavaScript',
+          li4: 'Github',
+          li5: 'Bootstrap',
+          li6: 'react.js',
         },
 
         link: 'https://ankitt26.github.io/To-do-list/dist/',
