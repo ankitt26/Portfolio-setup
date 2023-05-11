@@ -61,28 +61,25 @@ for (let i = 0; i < popup.length; i += 1) {
       {
         id: 1,
         key: 'one1',
-        heading: 'Tonic',
+        heading: 'To-do-List',
 
-        frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
+        frame: { li1: 'CANOPY', li2: 'Front End Dev', li3: '2023' },
 
-        img: 'images/Snapshoot.png',
-        alt: 'Tonic project',
+        img: 'images/todo-2.png',
+        alt: 'Todo Project project',
         para1:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "A todo app is a software application that allows users to create and manage lists of tasks or activities they need to complete. Users can create new tasks, set deadlines, assign priorities, and organize them into categories or projects. ",
         para2:
-          "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
+          " The app can also provide features such as reminders, notifications, and progress tracking to help users stay on top of their tasks and complete them efficiently. Todo apps can be used for personal productivity, team collaboration, project management, or any other situation where task management is required.",
 
         language: {
           li1: 'HTML',
           li2: 'Css',
           li3: 'JavaScript',
-          li4: 'bootstrap',
-          li5: 'query',
-          li6: 'react.js',
         },
 
-        link: 'https://ankitt26.github.io/Portfolio-setup/',
-        code: 'https://github.com/ankitt26/Portfolio-setup',
+        link: 'https://ankitt26.github.io/To-do-list/dist/',
+        code: 'https://github.com/ankitt26/To-do-list',
       },
 
       {

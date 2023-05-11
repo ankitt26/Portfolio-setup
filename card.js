@@ -2,14 +2,13 @@ const work = document.querySelector('.works');
 const allCards = [
   {
     id: 'one1',
-    img: 'images/Snapshoot.png',
-    alt: 'tonic project',
-    Name: 'Tonic',
+    img: 'images/to-do4.png',
+    alt: 'Todo project',
+    Name: 'To do list',
     block1: '',
     block2: '',
-    frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
-    para: ` A daily selection of privately personalized reads; no accounts or
-       sign-ups required.`,
+    frame: { li1: 'CANOPY', li2: 'Front End Dev', li3: '2023' },
+    para: ` A todo app is a software application that allows users to create and manage lists of tasks or activities they need to complete. `,
     language: {
       li1: 'HTML',
       li2: 'Css',
