@@ -145,7 +145,8 @@
 
   .card-img {
     width: 295px;
-    height: 220px;
+
+    /* height: 220px; */
     border-radius: 8px;
   }
 

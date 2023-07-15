@@ -3,8 +3,8 @@ const allCards = [
 
   {
     id: 'NextView',
-    img: 'images/project-img/Nextview.png',
-    alt: 'Crypto Place',
+    img: 'images/project-img/NextView.png',
+    alt: 'Next View',
     Name: 'Next View',
     block1: '',
     block2: '',
