@@ -58,6 +58,59 @@ for (let i = 0; i < popup.length; i += 1) {
     contact.classList.add('all');
 
     const projects = [
+
+      {
+        id: 1,
+        key: 'NextView',
+        heading: 'NextView',
+
+        frame: { li1: 'React', li2: 'Front End Dev', li3: '2023' },
+
+        img: 'images/project-img/NextView.png',
+        alt: 'Next View',
+        para1:
+        'This project utilizes \'tvmaze\' API to fetch data and show cards, along with another API to retrieve and update likes and comments.',
+        para2:
+          'The application provides an intuitive interface where users can easily interact with the content and express their preferences by liking specific items. Additionally, users have the ability to leave comments, enabling them to engage in discussions and share their thoughts. ',
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'Jest',
+          li5: 'WebPack',
+          li6: 'Github',
+        },
+
+        link: 'https://ankitt26.github.io/Second-Capstone-project/dist/',
+        code: 'https://github.com/ankitt26/Second-Capstone-project',
+      },
+      {
+        id: 2,
+        key: 'CryptoPlace',
+        heading: 'CryptoPlace',
+
+        frame: { li1: 'React', li2: 'Front End Dev', li3: '2023' },
+
+        img: 'images/project-img/Crypto.png',
+        alt: 'CryptoPlace',
+        para1:
+          'Crypto-Place is a SPA ,in this project we are fetching the cryptocurrency data from the API, user can see the live data of crypyocurrency and also use search for a specific coin.',
+        para2:
+          ' Coingecko API is used to fetch data, user can search different crypto currency in the app and get detail for particular coin . ',
+
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'React.js',
+          li5: 'Redux',
+          li6: 'Github',
+        },
+
+        link: 'https://ankitt26k-crypto-place.onrender.com/',
+        code: 'https://github.com/ankitt26/crypto-place',
+      },
+
       {
         id: 1,
         key: 'one1',
@@ -192,7 +245,7 @@ for (let i = 0; i < popup.length; i += 1) {
           ${projects[index].para1}
           <br>
           <br>
-          ${projects[index].para1}
+          ${projects[index].para2}
           </p>
           <div class="small-box">
             <ul class="box2-ul pop-ul">

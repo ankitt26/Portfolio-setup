@@ -1,5 +1,38 @@
 const work = document.querySelector('.works');
 const allCards = [
+
+  {
+    id: 'NextView',
+    img: 'images/project-img/Nextview.png',
+    alt: 'Crypto Place',
+    Name: 'Next View',
+    block1: '',
+    block2: '',
+    frame: { li1: 'Javascript', li2: 'Front End Dev', li3: '2023' },
+    para: 'This project utilizes \'tvmaze\' API to fetch data and show cards, along with another API to retrieve and update likes and comments.',
+    language: {
+      li1: 'Javascript',
+      li2: 'HTML/CSS',
+      li3: 'Jest',
+    },
+  },
+
+  {
+    id: 'CryptoPlace',
+    img: 'images/project-img/Crypto.png',
+    alt: 'Crypto Place',
+    Name: 'Crypto Place',
+    block1: 'Aa',
+    block2: 'Bb',
+    frame: { li1: 'React', li2: 'Front End Dev', li3: '2023' },
+    para: 'Crypto-Place is a SPA ,in this project we are fetching the cryptocurrency data from the API, user can see the live details and search for a specific coin.',
+    language: {
+      li1: 'React/Redux',
+      li2: 'JavaScript',
+      li3: 'Jest',
+    },
+  },
+
   {
     id: 'one1',
     img: 'images/to-do4.png',

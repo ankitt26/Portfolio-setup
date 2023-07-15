@@ -866,7 +866,8 @@
     color: #344563;
     max-width: 90%;
     min-width: 20%;
-    height: 65px;
+
+    /* height: 65px; */
   }
 
   .box2-ul {
