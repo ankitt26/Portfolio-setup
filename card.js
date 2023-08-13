@@ -34,7 +34,23 @@ const allCards = [
   },
 
   {
-    id: 'one1',
+    id: 'Math-magician',
+    img: 'images/project-img/Math-magicians.png',
+    alt: 'Math-magicians',
+    Name: 'Math Magicians',
+    block1: '',
+    block2: '',
+    frame: { li1: 'React', li2: 'Front End Dev', li3: '2023' },
+    para: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.',
+    language: {
+      li1: 'React.js',
+      li2: 'HTML',
+      li3: 'CSS',
+    },
+  },
+
+  {
+    id: 'todo-list',
     img: 'images/to-do4.png',
     alt: 'Todo project',
     Name: 'To do list',

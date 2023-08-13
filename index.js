@@ -58,7 +58,6 @@ for (let i = 0; i < popup.length; i += 1) {
     contact.classList.add('all');
 
     const projects = [
-
       {
         id: 1,
         key: 'NextView',
@@ -69,7 +68,7 @@ for (let i = 0; i < popup.length; i += 1) {
         img: 'images/project-img/NextView.png',
         alt: 'Next View',
         para1:
-        'This project utilizes \'tvmaze\' API to fetch data and show cards, along with another API to retrieve and update likes and comments.',
+          "This project utilizes 'tvmaze' API to fetch data and show cards, along with another API to retrieve and update likes and comments.",
         para2:
           'The application provides an intuitive interface where users can easily interact with the content and express their preferences by liking specific items. Additionally, users have the ability to leave comments, enabling them to engage in discussions and share their thoughts. ',
         language: {
@@ -112,8 +111,35 @@ for (let i = 0; i < popup.length; i += 1) {
       },
 
       {
-        id: 1,
-        key: 'one1',
+        id: 3,
+        key: 'Math-magician',
+        heading: 'Math Magicians',
+
+        frame: { li1: 'React', li2: 'Front End Dev', li3: '2023' },
+
+        img: 'images/project-img/Math-magicians.png',
+        alt: 'Math-magicians',
+        para1:
+          'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.',
+        para2:
+          'Math Magician is a web application or software program designed to help users improve their math skills and enhance their mental calculation abilities. It provides a platform for practicing various mathematical operations such as addition, subtraction, multiplication, and division. ',
+
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'React.js',
+          li5: 'jest',
+          li6: 'Github',
+        },
+
+        link: 'https://math-magician-ankitt26.onrender.com/',
+        code: 'https://github.com/ankitt26/Math-magicians',
+      },
+
+      {
+        id: 5,
+        key: 'todo-list',
         heading: 'To-do-List',
 
         frame: { li1: 'CANOPY', li2: 'Front End Dev', li3: '2023' },
@@ -139,7 +165,7 @@ for (let i = 0; i < popup.length; i += 1) {
       },
 
       {
-        id: 2,
+        id: 6,
         key: 'two2',
         heading: 'Multipost',
 
@@ -166,7 +192,7 @@ for (let i = 0; i < popup.length; i += 1) {
       },
 
       {
-        id: 3,
+        id: 7,
         key: 'three3',
         heading: 'Tonic',
 
@@ -193,7 +219,7 @@ for (let i = 0; i < popup.length; i += 1) {
       },
 
       {
-        id: 4,
+        id: 8,
         key: 'four4',
         heading: 'Gateway',
 
