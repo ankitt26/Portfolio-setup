@@ -138,7 +138,7 @@ for (let i = 0; i < popup.length; i += 1) {
       },
 
       {
-        id: 5,
+        id: 4,
         key: 'todo-list',
         heading: 'To-do-List',
 
@@ -164,86 +164,6 @@ for (let i = 0; i < popup.length; i += 1) {
         code: 'https://github.com/ankitt26/To-do-list',
       },
 
-      {
-        id: 6,
-        key: 'two2',
-        heading: 'Multipost',
-
-        frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
-
-        img: 'images/Snapshoot2.png',
-        alt: 'Multipost project',
-        para1:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        para2:
-          "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
-
-        language: {
-          li1: 'HTML',
-          li2: 'Css',
-          li3: 'JavaScript',
-          li4: 'bootstrap',
-          li5: 'query',
-          li6: 'react.js',
-        },
-
-        link: 'https://ankitt26.github.io/Portfolio-setup/',
-        code: 'https://github.com/ankitt26/Portfolio-setup',
-      },
-
-      {
-        id: 7,
-        key: 'three3',
-        heading: 'Tonic',
-
-        frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
-
-        img: 'images/Snapshoot3.png',
-        alt: 'Tonic project',
-        para1:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        para2:
-          "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
-
-        language: {
-          li1: 'HTML',
-          li2: 'Css',
-          li3: 'JavaScript',
-          li4: 'bootstrap',
-          li5: 'query',
-          li6: 'react.js',
-        },
-
-        link: 'https://ankitt26.github.io/Portfolio-setup/',
-        code: 'https://github.com/ankitt26/Portfolio-setup',
-      },
-
-      {
-        id: 8,
-        key: 'four4',
-        heading: 'Gateway',
-
-        frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
-
-        img: 'images/Snapshoot4.png',
-        alt: 'gateway project',
-        para1:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        para2:
-          "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
-
-        language: {
-          li1: 'HTML',
-          li2: 'Css',
-          li3: 'JavaScript',
-          li4: 'bootstrap',
-          li5: 'query',
-          li6: 'react.js',
-        },
-
-        link: 'https://ankitt26.github.io/Portfolio-setup/',
-        code: 'https://github.com/ankitt26/Portfolio-setup',
-      },
     ];
 
     projects.forEach((value, index) => {

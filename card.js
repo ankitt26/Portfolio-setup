@@ -64,57 +64,6 @@ const allCards = [
       li3: 'JavaScript',
     },
   },
-
-  {
-    id: 'two2',
-    img: 'images/Snapshoot2.png',
-    alt: 'Multipost project',
-    Name: 'Multipost',
-    block1: 'Aa',
-    block2: 'Bb',
-    frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
-    para: ` A daily selection of privately personalized reads; no accounts or
-       sign-ups required.`,
-    language: {
-      li1: 'HTML',
-      li2: 'Css',
-      li3: 'JavaScript',
-    },
-  },
-
-  {
-    id: 'three3',
-    img: 'images/Snapshoot3.png',
-    alt: 'Tonic project',
-    Name: 'Tonic',
-    block1: '',
-    block2: '',
-    frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
-    para: ` A daily selection of privately personalized reads; no accounts or
-       sign-ups required.`,
-    language: {
-      li1: 'HTML',
-      li2: 'Css',
-      li3: 'JavaScript',
-    },
-  },
-
-  {
-    id: 'four4',
-    img: 'images/Snapshoot4.png',
-    alt: 'Gateway project',
-    Name: 'Gateway',
-    block1: 'Aa',
-    block2: 'Bb',
-    frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
-    para: ` A daily selection of privately personalized reads; no accounts or
-       sign-ups required.`,
-    language: {
-      li1: 'HTML',
-      li2: 'Css',
-      li3: 'JavaScript',
-    },
-  },
 ];
 
 allCards.forEach((value) => {
