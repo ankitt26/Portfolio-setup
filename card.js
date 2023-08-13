@@ -40,8 +40,8 @@ const allCards = [
     Name: 'Math Magicians',
     block1: '',
     block2: '',
-    frame: { li1: 'React', li2: 'Front End Dev', li3: '2023' },
-    para: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.',
+    frame: { li1: 'MATHS', li2: 'Front End Dev', li3: '2023' },
+    para: 'Math magicians is a (SPA) for all fans of mathematics. It allows users to: Make simple calculations. Read a random math-related quote.',
     language: {
       li1: 'React.js',
       li2: 'HTML',

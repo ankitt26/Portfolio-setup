@@ -120,9 +120,9 @@ for (let i = 0; i < popup.length; i += 1) {
         img: 'images/project-img/Math-magicians.png',
         alt: 'Math-magicians',
         para1:
-          'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.',
+          'Math magicians is a SPA for all fans of mathematics. It allows users to: Make simple calculations. Read a random math-related quote.',
         para2:
-          'Math Magician is a web application or software program designed to help users improve their math skills and enhance their mental calculation abilities. It provides a platform for practicing various mathematical operations such as addition, subtraction, multiplication, and division. ',
+          ' It is designed to help users improve their math skills and enhance their mental calculation abilities. It provides a platform for practicing various mathematical operations such as addition, subtraction, multiplication, and division. ',
 
         language: {
           li1: 'HTML',
