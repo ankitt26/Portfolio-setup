@@ -50,12 +50,28 @@ const allCards = [
   },
 
   {
+    id: 'Space',
+    img: 'images/project-img/space.png',
+    alt: 'Space-Travelers-Hub',
+    Name: 'Space Travelers',
+    block1: 'Aa',
+    block2: 'Bb',
+    frame: { li1: 'RESEARCH', li2: 'Front End Dev', li3: '2023' },
+    para: '\'The Space Travelers\' Hub consists of Rockets, Missions, and the My Profile section. we will be working with the real live data from the SpaceX API.',
+    language: {
+      li1: 'React.js',
+      li2: 'Redux',
+      li3: 'HTML/CSS',
+    },
+  },
+
+  {
     id: 'Quill-pen',
     img: 'images/project-img/quill-pen.png',
     alt: 'Quill pen',
     Name: 'Quill pen',
-    block1: 'Aa',
-    block2: 'Bb',
+    block1: '',
+    block2: '',
     frame: { li1: 'SOFTWARE', li2: 'Front End Dev', li3: '2023' },
     para: 'Learn complete Full stack Web development with React and Node by doing it the way a full-stack professional would do it.',
     language: {
@@ -70,8 +86,8 @@ const allCards = [
     img: 'images/to-do4.png',
     alt: 'Todo project',
     Name: 'To do list',
-    block1: '',
-    block2: '',
+    block1: 'Aa',
+    block2: 'Bb',
     frame: { li1: 'CANOPY', li2: 'Front End Dev', li3: '2023' },
     para: ' A todo app is a software application that allows users to create and manage lists of tasks or activities they need to complete. ',
     language: {

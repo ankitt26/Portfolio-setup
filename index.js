@@ -139,6 +139,32 @@ for (let i = 0; i < popup.length; i += 1) {
 
       {
         id: 4,
+        key: 'Space',
+        heading: 'Space Travelers',
+
+        frame: { li1: 'RESEARCH', li2: 'Front End Dev', li3: '2023' },
+
+        img: 'images/project-img/space.png',
+        alt: 'Space-Travelers-Hub',
+        para1:
+        '\'The Space Travelers\' Hub consists of Rockets, Missions, and the My Profile section. we will be working with the real live data from the SpaceX API.',
+        para2:
+        'We build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'React.js',
+          li5: 'Redux',
+          li6: 'jest test',
+        },
+
+        link: 'https://ankitt-26k-space-travelers-hub.onrender.com/',
+        code: 'https://github.com/ankitt26/Space-Travelers-Hub',
+      },
+
+      {
+        id: 5,
         key: 'Quill-pen',
         heading: 'Quill pen',
 
@@ -164,7 +190,7 @@ for (let i = 0; i < popup.length; i += 1) {
       },
 
       {
-        id: 5,
+        id: 6,
         key: 'todo-list',
         heading: 'To-do-List',
 
