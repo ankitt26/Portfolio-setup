@@ -50,6 +50,22 @@ const allCards = [
   },
 
   {
+    id: 'Quill-pen',
+    img: 'images/project-img/quill-pen.png',
+    alt: 'Quill pen',
+    Name: 'Quill pen',
+    block1: 'Aa',
+    block2: 'Bb',
+    frame: { li1: 'SOFTWARE', li2: 'Front End Dev', li3: '2023' },
+    para: 'Learn complete Full stack Web development with React and Node by doing it the way a full-stack professional would do it.',
+    language: {
+      li1: 'HTML',
+      li2: 'CSS',
+      li3: 'JavaScript',
+    },
+  },
+
+  {
     id: 'todo-list',
     img: 'images/to-do4.png',
     alt: 'Todo project',

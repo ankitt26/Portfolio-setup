@@ -139,6 +139,32 @@ for (let i = 0; i < popup.length; i += 1) {
 
       {
         id: 4,
+        key: 'Quill-pen',
+        heading: 'Quill pen',
+
+        frame: { li1: 'SOFTWARE', li2: 'Front End Dev', li3: '2023' },
+
+        img: 'images/project-img/quill-pen.png',
+        alt: 'CryptoPlace',
+        para1:
+        'Learn complete Full stack Web development with React and Node by doing it the way a full-stack professional would do it.',
+        para2:
+        'Learn how to create whole web apps from start to finish with one of the most trending tech stacks available. You can learn how to create data-driven applications, as well as how to test, protect, and deploy your code, in this thorough study path.',
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'Git',
+          li5: 'Github',
+          li6: '',
+        },
+
+        link: 'https://ankitt26.github.io/First-Capstone-project/index.html',
+        code: 'https://github.com/ankitt26/First-Capstone-project',
+      },
+
+      {
+        id: 5,
         key: 'todo-list',
         heading: 'To-do-List',
 
