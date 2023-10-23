@@ -191,6 +191,32 @@ for (let i = 0; i < popup.length; i += 1) {
 
       {
         id: 6,
+        key: 'bookstore',
+        heading: 'Bookstore',
+
+        frame: { li1: 'SOFTWARE', li2: 'Front End Dev', li3: '2023' },
+
+        img: 'images/project-img/Bookstore.png',
+        alt: 'Bookstore',
+        para1:
+        'With Bookstore, organizing your book collection becomes a breeze. You can effortlessly categorize your books, keep track of their availability, and share your catalog with friends and fellow book enthusiasts',
+        para2:
+        `Bookstore also offers advanced search and sorting options, making it easy to find specific titles or genres within your collection. Whether you're a book collector or a small library owner, Bookstore is your ultimate tool for efficient book management.`,
+        language: {
+          li1: 'HTML',
+          li2: 'CSS',
+          li3: 'React',
+          li4: 'Redux',
+          li5: 'Github',
+          li6: '',
+        },
+
+        link: 'https://bookstore-ankitt26k.onrender.com/',
+        code: 'https://github.com/ankitt26/Bookstore',
+      },
+
+      {
+        id: 8,
         key: 'todo-list',
         heading: 'To-do-List',
 

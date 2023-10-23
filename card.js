@@ -82,6 +82,22 @@ const allCards = [
   },
 
   {
+    id: 'bookstore',
+    img: 'images/project-img/Bookstore.png',
+    alt: 'Book Store',
+    Name: 'Bookstore',
+    block1: '',
+    block2: '',
+    frame: { li1: 'SOFTWARE', li2: 'Front End Dev', li3: '2023' },
+    para: 'A web application designed to facilitate book management, with features for adding, removing, and displaying a catalog of books.',
+    language: {
+      li1: 'React',
+      li2: 'Redux',
+      li3: 'HTML/CSS',
+    },
+  },
+
+  {
     id: 'todo-list',
     img: 'images/to-do4.png',
     alt: 'Todo project',
