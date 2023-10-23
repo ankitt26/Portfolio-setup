@@ -201,7 +201,7 @@ for (let i = 0; i < popup.length; i += 1) {
         para1:
         'With Bookstore, organizing your book collection becomes a breeze. You can effortlessly categorize your books, keep track of their availability, and share your catalog with friends and fellow book enthusiasts',
         para2:
-        `Bookstore also offers advanced search and sorting options, making it easy to find specific titles or genres within your collection. Whether you're a book collector or a small library owner, Bookstore is your ultimate tool for efficient book management.`,
+        'Bookstore also offers advanced search and sorting options, making it easy to find specific titles or genres within your collection. Whether you\'re a book collector or a small library owner, Bookstore is your ultimate tool for efficient book management.',
         language: {
           li1: 'HTML',
           li2: 'CSS',
@@ -227,7 +227,7 @@ for (let i = 0; i < popup.length; i += 1) {
         para1:
         'Experience the perfect platform to forge connections and share your love for dogs. Our app not only helps you find potential matches but also offers a vibrant community where you can exchange tips, stories, and arrange dog-friendly meetups.',
         para2:
-        `Tindog is more than just a dating app; it's a social hub for the canine-obsessed. Whether you're looking for a new four-legged friend for your furry companion or seeking love with a fellow dog enthusiast, Tindog brings the dog-loving community together in one paw-sitively fun space.`,
+        'Tindog is more than just a dating app; it\'s a social hub for the canine-obsessed. Whether you\'re looking for a new four-legged friend for your furry companion or seeking love with a fellow dog enthusiast, Tindog brings the dog-loving community together in one paw-sitively fun space.',
         language: {
           li1: 'HTML',
           li2: 'Css',
