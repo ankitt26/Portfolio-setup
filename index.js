@@ -216,6 +216,32 @@ for (let i = 0; i < popup.length; i += 1) {
       },
 
       {
+        id: 7,
+        key: 'tindog',
+        heading: 'Tindog',
+
+        frame: { li1: 'SOFTWARE', li2: 'Front End Dev', li3: '2022' },
+
+        img: 'images/project-img/Tindog.png',
+        alt: 'Tindog',
+        para1:
+        'Experience the perfect platform to forge connections and share your love for dogs. Our app not only helps you find potential matches but also offers a vibrant community where you can exchange tips, stories, and arrange dog-friendly meetups.',
+        para2:
+        `Tindog is more than just a dating app; it's a social hub for the canine-obsessed. Whether you're looking for a new four-legged friend for your furry companion or seeking love with a fellow dog enthusiast, Tindog brings the dog-loving community together in one paw-sitively fun space.`,
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'Git',
+          li5: 'Github',
+          li6: '',
+        },
+
+        link: 'https://ankitt26.github.io/TindogbyA/',
+        code: 'https://github.com/ankitt26/TindogbyA',
+      },
+
+      {
         id: 8,
         key: 'todo-list',
         heading: 'To-do-List',

@@ -98,6 +98,22 @@ const allCards = [
   },
 
   {
+    id: 'tindog',
+    img: 'images/project-img/Tindog.png',
+    alt: 'tindog',
+    Name: 'Tindog',
+    block1: 'Aa',
+    block2: 'Bb',
+    frame: { li1: 'SOFTWARE', li2: 'Front End Dev', li3: '2023' },
+    para: 'A software application that similar to Tinder, for Connecting with Fellow Dog Lovers - Where Canine Enthusiasts Meet, Match, and Mingle! ',
+    language: {
+      li1: 'HTML',
+      li2: 'Css',
+      li3: 'JavaScript',
+    },
+  },
+
+  {
     id: 'todo-list',
     img: 'images/to-do4.png',
     alt: 'Todo project',
