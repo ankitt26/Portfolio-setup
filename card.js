@@ -17,7 +17,21 @@ const allCards = [
     },
   },
 
-  
+  {
+    id: 'SaveIt',
+    img: 'images/project-img/saveit.png',
+    alt: 'Saveit',
+    Name: 'SaveIt',
+    block1: 'Aa',
+    block2: 'Bb',
+    frame: { li1: 'Capstone', li2: 'Full Stack Dev', li3: '2023' },
+    para: 'SaveIt app is a mobile web application where you can manage your budget, manage list of transactions associated with a category and money they spent.',
+    language: {
+      li1: 'ERB',
+      li2: 'PostgreSQL',
+      li3: 'Ruby on Rails',
+    },
+  },
 
   {
     id: 'NextView',

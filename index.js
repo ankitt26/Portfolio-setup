@@ -295,7 +295,32 @@ for (let i = 0; i < popup.length; i += 1) {
         code: 'https://github.com/ankitt26/Doctors_Appointment_Backend',
       },
 
-    
+      {
+        id: 10,
+        key: 'SaveIt',
+        heading: 'SaveIt',
+
+        frame: {  li1: 'Capstone', li2: 'Full Stack Dev', li3: '2023' },
+
+        img: 'images/project-img/saveit.png',
+        alt: 'saveit',
+        para1:
+        'SaveIt app is a mobile web application where you can manage your budget, manage list of transactions associated with a category and money they spent.',
+        para2:
+          'With the SaveIt app, financial management is at your fingertips. Track your expenses, categorize transactions, and gain insight into your spending habits effortlessly.',
+        language: {
+          li1: 'ERB',
+          li2: 'Devise',
+          li3: 'Ruby on Rails',
+          li4: 'Jest',
+          li5: 'HTML/CSS',
+          li6: 'PostgreSQL',
+        },
+
+        link: 'https://saveit-ankit.onrender.com/',
+        code: 'https://github.com/ankitt26/SaveIt',
+      },
+
     ];
 
     projects.forEach((value, index) => {
