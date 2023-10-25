@@ -248,7 +248,7 @@ for (let i = 0; i < popup.length; i += 1) {
 
         frame: { li1: 'CANOPY', li2: 'Front End Dev', li3: '2023' },
 
-        img: 'images/todo-2.png',
+        img: 'images/to-do4.png',
         alt: 'Todo Project project',
         para1:
           'A todo app is a software application that allows users to create and manage lists of tasks or activities they need to complete. Users can create new tasks, set deadlines, assign priorities, and organize them into categories or projects. ',
