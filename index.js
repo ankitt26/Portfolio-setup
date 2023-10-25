@@ -60,12 +60,195 @@ for (let i = 0; i < popup.length; i += 1) {
     const projects = [
       {
         id: 1,
-        key: 'one1',
+        key: 'NextView',
+        heading: 'NextView',
+
+        frame: { li1: 'React', li2: 'Front End Dev', li3: '2023' },
+
+        img: 'images/project-img/NextView.png',
+        alt: 'Next View',
+        para1:
+          "This project utilizes 'tvmaze' API to fetch data and show cards, along with another API to retrieve and update likes and comments.",
+        para2:
+          'The application provides an intuitive interface where users can easily interact with the content and express their preferences by liking specific items. Additionally, users have the ability to leave comments, enabling them to engage in discussions and share their thoughts. ',
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'Jest',
+          li5: 'WebPack',
+          li6: 'Github',
+        },
+
+        link: 'https://ankitt26.github.io/Second-Capstone-project/dist/',
+        code: 'https://github.com/ankitt26/Second-Capstone-project',
+      },
+      {
+        id: 2,
+        key: 'CryptoPlace',
+        heading: 'CryptoPlace',
+
+        frame: { li1: 'React', li2: 'Front End Dev', li3: '2023' },
+
+        img: 'images/project-img/Crypto.png',
+        alt: 'CryptoPlace',
+        para1:
+          'Crypto-Place is a SPA ,in this project we are fetching the cryptocurrency data from the API, user can see the live data of crypyocurrency and also use search for a specific coin.',
+        para2:
+          ' Coingecko API is used to fetch data, user can search different crypto currency in the app and get detail for particular coin . ',
+
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'React.js',
+          li5: 'Redux',
+          li6: 'Github',
+        },
+
+        link: 'https://ankitt26k-crypto-place.onrender.com/',
+        code: 'https://github.com/ankitt26/crypto-place',
+      },
+
+      {
+        id: 3,
+        key: 'Math-magician',
+        heading: 'Math Magicians',
+
+        frame: { li1: 'React', li2: 'Front End Dev', li3: '2023' },
+
+        img: 'images/project-img/Math-magicians.png',
+        alt: 'Math-magicians',
+        para1:
+          'Math magicians is a SPA for all fans of mathematics. It allows users to: Make simple calculations. Read a random math-related quote.',
+        para2:
+          ' It is designed to help users improve their math skills and enhance their mental calculation abilities. It provides a platform for practicing various mathematical operations such as addition, subtraction, multiplication, and division. ',
+
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'React.js',
+          li5: 'jest',
+          li6: 'Github',
+        },
+
+        link: 'https://math-magician-ankitt26.onrender.com/',
+        code: 'https://github.com/ankitt26/Math-magicians',
+      },
+
+      {
+        id: 4,
+        key: 'Space',
+        heading: 'Space Travelers',
+
+        frame: { li1: 'RESEARCH', li2: 'Front End Dev', li3: '2023' },
+
+        img: 'images/project-img/space.png',
+        alt: 'Space-Travelers-Hub',
+        para1:
+        '\'The Space Travelers\' Hub consists of Rockets, Missions, and the My Profile section. we will be working with the real live data from the SpaceX API.',
+        para2:
+        'We build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'React.js',
+          li5: 'Redux',
+          li6: 'jest test',
+        },
+
+        link: 'https://ankitt-26k-space-travelers-hub.onrender.com/',
+        code: 'https://github.com/ankitt26/Space-Travelers-Hub',
+      },
+
+      {
+        id: 5,
+        key: 'Quill-pen',
+        heading: 'Quill pen',
+
+        frame: { li1: 'SOFTWARE', li2: 'Front End Dev', li3: '2023' },
+
+        img: 'images/project-img/quill-pen.png',
+        alt: 'CryptoPlace',
+        para1:
+        'Learn complete Full stack Web development with React and Node by doing it the way a full-stack professional would do it.',
+        para2:
+        'Learn how to create whole web apps from start to finish with one of the most trending tech stacks available. You can learn how to create data-driven applications, as well as how to test, protect, and deploy your code, in this thorough study path.',
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'Git',
+          li5: 'Github',
+          li6: '',
+        },
+
+        link: 'https://ankitt26.github.io/First-Capstone-project/index.html',
+        code: 'https://github.com/ankitt26/First-Capstone-project',
+      },
+
+      {
+        id: 6,
+        key: 'bookstore',
+        heading: 'Bookstore',
+
+        frame: { li1: 'SOFTWARE', li2: 'Front End Dev', li3: '2023' },
+
+        img: 'images/project-img/Bookstore.png',
+        alt: 'Bookstore',
+        para1:
+        'With Bookstore, organizing your book collection becomes a breeze. You can effortlessly categorize your books, keep track of their availability, and share your catalog with friends and fellow book enthusiasts',
+        para2:
+        'Bookstore also offers advanced search and sorting options, making it easy to find specific titles or genres within your collection. Whether you\'re a book collector or a small library owner, Bookstore is your ultimate tool for efficient book management.',
+        language: {
+          li1: 'HTML',
+          li2: 'CSS',
+          li3: 'React',
+          li4: 'Redux',
+          li5: 'Github',
+          li6: '',
+        },
+
+        link: 'https://bookstore-ankitt26k.onrender.com/',
+        code: 'https://github.com/ankitt26/Bookstore',
+      },
+
+      {
+        id: 7,
+        key: 'tindog',
+        heading: 'Tindog',
+
+        frame: { li1: 'SOFTWARE', li2: 'Front End Dev', li3: '2022' },
+
+        img: 'images/project-img/Tindog.png',
+        alt: 'Tindog',
+        para1:
+        'Experience the perfect platform to forge connections and share your love for dogs. Our app not only helps you find potential matches but also offers a vibrant community where you can exchange tips, stories, and arrange dog-friendly meetups.',
+        para2:
+        'Tindog is more than just a dating app; it\'s a social hub for the canine-obsessed. Whether you\'re looking for a new four-legged friend for your furry companion or seeking love with a fellow dog enthusiast, Tindog brings the dog-loving community together in one paw-sitively fun space.',
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'JavaScript',
+          li4: 'Git',
+          li5: 'Github',
+          li6: '',
+        },
+
+        link: 'https://ankitt26.github.io/TindogbyA/',
+        code: 'https://github.com/ankitt26/TindogbyA',
+      },
+
+      {
+        id: 8,
+        key: 'todo-list',
         heading: 'To-do-List',
 
         frame: { li1: 'CANOPY', li2: 'Front End Dev', li3: '2023' },
 
-        img: 'images/todo-2.png',
+        img: 'images/to-do4.png',
         alt: 'Todo Project project',
         para1:
           'A todo app is a software application that allows users to create and manage lists of tasks or activities they need to complete. Users can create new tasks, set deadlines, assign priorities, and organize them into categories or projects. ',
@@ -85,86 +268,6 @@ for (let i = 0; i < popup.length; i += 1) {
         code: 'https://github.com/ankitt26/To-do-list',
       },
 
-      {
-        id: 2,
-        key: 'two2',
-        heading: 'Multipost',
-
-        frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
-
-        img: 'images/Snapshoot2.png',
-        alt: 'Multipost project',
-        para1:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        para2:
-          "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
-
-        language: {
-          li1: 'HTML',
-          li2: 'Css',
-          li3: 'JavaScript',
-          li4: 'bootstrap',
-          li5: 'query',
-          li6: 'react.js',
-        },
-
-        link: 'https://ankitt26.github.io/Portfolio-setup/',
-        code: 'https://github.com/ankitt26/Portfolio-setup',
-      },
-
-      {
-        id: 3,
-        key: 'three3',
-        heading: 'Tonic',
-
-        frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
-
-        img: 'images/Snapshoot3.png',
-        alt: 'Tonic project',
-        para1:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        para2:
-          "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
-
-        language: {
-          li1: 'HTML',
-          li2: 'Css',
-          li3: 'JavaScript',
-          li4: 'bootstrap',
-          li5: 'query',
-          li6: 'react.js',
-        },
-
-        link: 'https://ankitt26.github.io/Portfolio-setup/',
-        code: 'https://github.com/ankitt26/Portfolio-setup',
-      },
-
-      {
-        id: 4,
-        key: 'four4',
-        heading: 'Gateway',
-
-        frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
-
-        img: 'images/Snapshoot4.png',
-        alt: 'gateway project',
-        para1:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        para2:
-          "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
-
-        language: {
-          li1: 'HTML',
-          li2: 'Css',
-          li3: 'JavaScript',
-          li4: 'bootstrap',
-          li5: 'query',
-          li6: 'react.js',
-        },
-
-        link: 'https://ankitt26.github.io/Portfolio-setup/',
-        code: 'https://github.com/ankitt26/Portfolio-setup',
-      },
     ];
 
     projects.forEach((value, index) => {
@@ -192,7 +295,7 @@ for (let i = 0; i < popup.length; i += 1) {
           ${projects[index].para1}
           <br>
           <br>
-          ${projects[index].para1}
+          ${projects[index].para2}
           </p>
           <div class="small-box">
             <ul class="box2-ul pop-ul">

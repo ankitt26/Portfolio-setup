@@ -20,6 +20,7 @@
   }
 
   .union {
+    width: 23px;
     padding-right: 20px;
   }
 
@@ -36,17 +37,15 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 20px;
-
-    /* identical to box height, or 111% */
-
     display: flex;
     align-items: center;
     text-align: center;
     padding-left: 17px;
-
-    /* Primary/B400 */
-
     color: #6070ff;
+  }
+
+  .logo-ak {
+    width: 120px;
   }
 
   .main-section {
@@ -145,7 +144,8 @@
 
   .card-img {
     width: 295px;
-    height: 220px;
+
+    /* height: 220px; */
     border-radius: 8px;
   }
 
@@ -617,24 +617,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-
-    /* margin: 0px 60px; */
-
     width: 100%;
     background-color: #fff;
   }
 
   #logo {
     text-decoration: none;
-    width: 106px;
-    height: 20px;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 20px;
-    color: #6070ff;
     margin-left: -12%;
+  }
+
+  .logo-ak {
+    width: 120px;
   }
 
   .union {
@@ -866,7 +859,8 @@
     color: #344563;
     max-width: 90%;
     min-width: 20%;
-    height: 65px;
+
+    /* height: 65px; */
   }
 
   .box2-ul {

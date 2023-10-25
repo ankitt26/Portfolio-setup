@@ -1,65 +1,127 @@
 const work = document.querySelector('.works');
 const allCards = [
+
   {
-    id: 'one1',
+    id: 'NextView',
+    img: 'images/project-img/NextView.png',
+    alt: 'Next View',
+    Name: 'Next View',
+    block1: '',
+    block2: '',
+    frame: { li1: 'Javascript', li2: 'Front End Dev', li3: '2023' },
+    para: 'This project utilizes \'tvmaze\' API to fetch data and show cards, along with another API to retrieve and update likes and comments.',
+    language: {
+      li1: 'Javascript',
+      li2: 'HTML/CSS',
+      li3: 'Jest',
+    },
+  },
+
+  {
+    id: 'CryptoPlace',
+    img: 'images/project-img/Crypto.png',
+    alt: 'Crypto Place',
+    Name: 'Crypto Place',
+    block1: 'Aa',
+    block2: 'Bb',
+    frame: { li1: 'React', li2: 'Front End Dev', li3: '2023' },
+    para: 'Crypto-Place is a SPA ,in this project we are fetching the cryptocurrency data from the API, user can see the live details and search for a specific coin.',
+    language: {
+      li1: 'React/Redux',
+      li2: 'JavaScript',
+      li3: 'Jest',
+    },
+  },
+
+  {
+    id: 'Math-magician',
+    img: 'images/project-img/Math-magicians.png',
+    alt: 'Math-magicians',
+    Name: 'Math Magicians',
+    block1: '',
+    block2: '',
+    frame: { li1: 'MATHS', li2: 'Front End Dev', li3: '2023' },
+    para: 'Math magicians is a (SPA) for all fans of mathematics. It allows users to: Make simple calculations. Read a random math-related quote.',
+    language: {
+      li1: 'React.js',
+      li2: 'HTML',
+      li3: 'CSS',
+    },
+  },
+
+  {
+    id: 'Space',
+    img: 'images/project-img/space.png',
+    alt: 'Space-Travelers-Hub',
+    Name: 'Space Travelers',
+    block1: 'Aa',
+    block2: 'Bb',
+    frame: { li1: 'RESEARCH', li2: 'Front End Dev', li3: '2023' },
+    para: '\'The Space Travelers\' Hub consists of Rockets, Missions, and the My Profile section. we will be working with the real live data from the SpaceX API.',
+    language: {
+      li1: 'React.js',
+      li2: 'Redux',
+      li3: 'HTML/CSS',
+    },
+  },
+
+  {
+    id: 'Quill-pen',
+    img: 'images/project-img/quill-pen.png',
+    alt: 'Quill pen',
+    Name: 'Quill pen',
+    block1: '',
+    block2: '',
+    frame: { li1: 'SOFTWARE', li2: 'Front End Dev', li3: '2023' },
+    para: 'Learn complete Full stack Web development with React and Node by doing it the way a full-stack professional would do it.',
+    language: {
+      li1: 'HTML',
+      li2: 'CSS',
+      li3: 'JavaScript',
+    },
+  },
+
+  {
+    id: 'bookstore',
+    img: 'images/project-img/Bookstore.png',
+    alt: 'Book Store',
+    Name: 'Bookstore',
+    block1: 'Aa',
+    block2: 'Bb',
+    frame: { li1: 'SOFTWARE', li2: 'Front End Dev', li3: '2023' },
+    para: 'A web application designed to facilitate book management, with features for adding, removing, and displaying a catalog of books.',
+    language: {
+      li1: 'React',
+      li2: 'Redux',
+      li3: 'HTML/CSS',
+    },
+  },
+
+  {
+    id: 'tindog',
+    img: 'images/project-img/Tindog.png',
+    alt: 'tindog',
+    Name: 'Tindog',
+    block1: '',
+    block2: '',
+    frame: { li1: 'SOFTWARE', li2: 'Front End Dev', li3: '2023' },
+    para: 'A software application that similar to Tinder, for Connecting with Fellow Dog Lovers - Where Canine Enthusiasts Meet, Match, and Mingle! ',
+    language: {
+      li1: 'HTML',
+      li2: 'Css',
+      li3: 'JavaScript',
+    },
+  },
+
+  {
+    id: 'todo-list',
     img: 'images/to-do4.png',
     alt: 'Todo project',
     Name: 'To do list',
-    block1: '',
-    block2: '',
+    block1: 'Aa',
+    block2: 'Bb',
     frame: { li1: 'CANOPY', li2: 'Front End Dev', li3: '2023' },
     para: ' A todo app is a software application that allows users to create and manage lists of tasks or activities they need to complete. ',
-    language: {
-      li1: 'HTML',
-      li2: 'Css',
-      li3: 'JavaScript',
-    },
-  },
-
-  {
-    id: 'two2',
-    img: 'images/Snapshoot2.png',
-    alt: 'Multipost project',
-    Name: 'Multipost',
-    block1: 'Aa',
-    block2: 'Bb',
-    frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
-    para: ` A daily selection of privately personalized reads; no accounts or
-       sign-ups required.`,
-    language: {
-      li1: 'HTML',
-      li2: 'Css',
-      li3: 'JavaScript',
-    },
-  },
-
-  {
-    id: 'three3',
-    img: 'images/Snapshoot3.png',
-    alt: 'Tonic project',
-    Name: 'Tonic',
-    block1: '',
-    block2: '',
-    frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
-    para: ` A daily selection of privately personalized reads; no accounts or
-       sign-ups required.`,
-    language: {
-      li1: 'HTML',
-      li2: 'Css',
-      li3: 'JavaScript',
-    },
-  },
-
-  {
-    id: 'four4',
-    img: 'images/Snapshoot4.png',
-    alt: 'Gateway project',
-    Name: 'Gateway',
-    block1: 'Aa',
-    block2: 'Bb',
-    frame: { li1: 'CANOPY', li2: 'Back End Dev', li3: '2019' },
-    para: ` A daily selection of privately personalized reads; no accounts or
-       sign-ups required.`,
     language: {
       li1: 'HTML',
       li2: 'Css',
