@@ -2,6 +2,24 @@ const work = document.querySelector('.works');
 const allCards = [
 
   {
+    id: 'Health-book',
+    img: 'images/project-img/health-book.png',
+    alt: 'Health book',
+    Name: 'Health Book',
+    block1: '',
+    block2: '',
+    frame: { li1: 'Capstone', li2: 'Full Stack Dev', li3: '2023' },
+    para: 'Health-Book is a software application for making appointments with doctors for a specific date and time duration at the lowest fees.',
+    language: {
+      li1: 'React',
+      li2: 'PostgreSQL',
+      li3: 'Ruby on Rails',
+    },
+  },
+
+  
+
+  {
     id: 'NextView',
     img: 'images/project-img/NextView.png',
     alt: 'Next View',
