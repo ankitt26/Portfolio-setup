@@ -904,6 +904,7 @@
     letter-spacing: 0.03em;
     color: #396df2;
     background-color: #fff;
+    cursor: pointer;
   }
 
   .icon {

@@ -276,7 +276,7 @@ for (let i = 0; i < popup.length; i += 1) {
 
         frame: {  li1: 'Capstone', li2: 'Full Stack Dev', li3: '2023' },
 
-        img: 'images/project-img/health-book.png',
+        img: 'images/project-img/healthbook.png',
         alt: 'health book',
         para1:
           "Health-Book is a software application for making appointments with doctors for a specific date and time duration at the lowest fees.",

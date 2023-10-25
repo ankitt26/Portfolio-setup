@@ -3,7 +3,7 @@ const allCards = [
 
   {
     id: 'Health-book',
-    img: 'images/project-img/health-book.png',
+    img: 'images/project-img/healthbook.png',
     alt: 'Health book',
     Name: 'Health Book',
     block1: '',
