@@ -17,6 +17,10 @@
     padding-bottom: 25px;
     width: 100%;
     background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    box-shadow: 0 4px 18px 7px #c5c2c2;
   }
 
   .union {
@@ -619,6 +623,10 @@
     justify-content: space-around;
     width: 100%;
     background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    box-shadow: 0 4px 18px 7px #c5c2c2;
   }
 
   #logo {
