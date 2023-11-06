@@ -347,9 +347,10 @@
     display: flex;
     flex-direction: column;
     width: 334px;
-    height: 650px;
+    height: auto;
     background-color: #fff;
     margin-top: -1px;
+    padding-bottom: 190px;
   }
 
   .section2-li {
@@ -378,9 +379,10 @@
     position: relative;
     top: 22px;
     margin-right: 24px;
+    cursor: pointer;
   }
 
-  .languages {
+  .lists {
     display: flex;
     flex-direction: column;
     width: 230px;
@@ -929,7 +931,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 930px;
+    height: auto;
     border-top-right-radius: 100px;
   }
 
@@ -937,7 +939,7 @@
     display: flex;
     flex-direction: column;
     width: 40%;
-    height: 1000px;
+    height: auto;
     background-color: #fff;
     padding: 30px;
     padding-right: 1px;
@@ -993,8 +995,10 @@
     flex-direction: column;
     align-items: flex-start;
     width: 92%;
+    height: auto;
     background-color: #fff;
     margin-top: 222px;
+    padding-bottom: 400px;
   }
 
   .section2-li {
@@ -1019,13 +1023,21 @@
     position: relative;
     top: 23px;
     right: 28px;
+    cursor: pointer;
   }
 
-  .languages {
+  .lists {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 54%;
+    justify-content: flex-start;
+    row-gap: 22px;
+    column-gap: 37px;
+
+    /* width: 54%; */
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+
+    /* margin-bottom: 25px; */
   }
 
   .lan {
@@ -1042,6 +1054,10 @@
     padding-right: -8px;
     background: #f7f7f9;
     border-radius: 10px;
+  }
+
+  .lan-img {
+    width: 50px;
   }
 
   .hr {
@@ -1066,6 +1082,7 @@
     background-size: 100%;
     background-position-y: 80px;
     background-repeat: no-repeat;
+    margin-top: -100px;
   }
 
   .contact_paragraph {
@@ -1312,4 +1329,8 @@
     position: relative;
     bottom: 32px;
   }
+}
+
+.hide {
+  display: none;
 }
