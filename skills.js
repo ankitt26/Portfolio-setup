@@ -7,3 +7,18 @@ drop1.addEventListener('click', () => {
   drop1.classList.toggle('bi-caret-right-fill');
   li1.classList.toggle('hr');
 });
+
+const languages = [
+  { name: 'JavaScript', image: 'javascript.png' },
+  { name: 'Ruby', image: 'Ruby.png' },
+  { name: 'HTML', image: 'HTML.png' },
+  { name: 'CSS', image: 'css.png' },
+];
+
+languages.forEach((lang) => {
+  list1.innerHTML += `
+    <div class="lan">
+      <img class="lan-img" src="images/${lang.image}" alt="${lang.name}" />
+      <h3 class="section2-h3">${lang.name}</h3>
+    </div>`;
+});

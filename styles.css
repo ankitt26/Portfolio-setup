@@ -1036,8 +1036,7 @@
     /* width: 54%; */
     flex-wrap: wrap;
     overflow-wrap: break-word;
-
-    /* margin-bottom: 25px; */
+    margin-bottom: 25px;
   }
 
   .lan {
@@ -1063,7 +1062,8 @@
   .hr {
     border-bottom: 2px solid rgb(188, 188, 188);
     position: relative;
-    top: 44px;
+
+    /* top: 44px; */
     width: 92%;
   }
 
