@@ -2,6 +2,54 @@ const work = document.querySelector('.works');
 const allCards = [
 
   {
+    id: 'Health-book',
+    img: 'images/project-img/healthbook.png',
+    alt: 'Health book',
+    Name: 'Health Book',
+    block1: 'Aa',
+    block2: 'Bb',
+    frame: { li1: 'Capstone', li2: 'Full Stack Dev', li3: '2023' },
+    para: 'Health-Book is a software application for making appointments with doctors for a specific date and time duration at the lowest fees.',
+    language: {
+      li1: 'React',
+      li2: 'PostgreSQL',
+      li3: 'Ruby on Rails',
+    },
+  },
+
+  {
+    id: 'SaveIt',
+    img: 'images/project-img/saveit.png',
+    alt: 'Saveit',
+    Name: 'SaveIt',
+    block1: '',
+    block2: '',
+    frame: { li1: 'Capstone', li2: 'Full Stack Dev', li3: '2023' },
+    para: 'SaveIt app is a mobile web application where you can manage your budget, manage list of transactions associated with a category and money they spent.',
+    language: {
+      li1: 'ERB',
+      li2: 'PostgreSQL',
+      li3: 'Ruby on Rails',
+    },
+  },
+
+  {
+    id: 'Recipe-app',
+    img: 'images/project-img/Recipe-app.png',
+    alt: 'Recipe app',
+    Name: 'Recipe app',
+    block1: 'Aa',
+    block2: 'Bb',
+    frame: { li1: 'Capstone', li2: 'Full Stack Dev', li3: '2023' },
+    para: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. Create recipes, and generate a shopping list.',
+    language: {
+      li1: 'ERB',
+      li2: 'PostgreSQL',
+      li3: 'Ruby on Rails',
+    },
+  },
+
+  {
     id: 'NextView',
     img: 'images/project-img/NextView.png',
     alt: 'Next View',

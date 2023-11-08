@@ -237,7 +237,7 @@
     align-items: center;
     padding: 1px;
     gap: 26px;
-    width: 214px;
+    width: fit-content;
     height: 24px;
     list-style: none;
   }
@@ -871,7 +871,7 @@
     align-items: center;
     padding: 1px;
     gap: 26px;
-    width: 214px;
+    width: fit-content;
     height: 24px;
     list-style: none;
   }
@@ -904,6 +904,7 @@
     letter-spacing: 0.03em;
     color: #396df2;
     background-color: #fff;
+    cursor: pointer;
   }
 
   .icon {

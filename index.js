@@ -268,6 +268,84 @@ for (let i = 0; i < popup.length; i += 1) {
         code: 'https://github.com/ankitt26/To-do-list',
       },
 
+      {
+        id: 9,
+        key: 'Health-book',
+        heading: 'Health-book',
+
+        frame: { li1: 'Capstone', li2: 'Full Stack Dev', li3: '2023' },
+
+        img: 'images/project-img/healthbook.png',
+        alt: 'health book',
+        para1:
+          'Health-Book is a software application for making appointments with doctors for a specific date and time duration at the lowest fees.',
+        para2:
+          'The application provides an intuitive interface where users can easily interact with the content and express their preferences by creating Appointment with specific doctors with different diversity. Additionally, users have the ability to see and create Many Appointments, Appointments and Facilities Fees may vary doctor by doctor ',
+        language: {
+          li1: 'React',
+          li2: 'Redux',
+          li3: 'Ruby on Rails',
+          li4: 'Jest',
+          li5: 'HTML/CSS',
+          li6: 'PostgreSQL',
+        },
+
+        link: 'https://health-book-doc.onrender.com/',
+        code: 'https://github.com/ankitt26/Doctors_Appointment_Backend',
+      },
+
+      {
+        id: 10,
+        key: 'SaveIt',
+        heading: 'SaveIt',
+
+        frame: { li1: 'Capstone', li2: 'Full Stack Dev', li3: '2023' },
+
+        img: 'images/project-img/saveit.png',
+        alt: 'saveit',
+        para1:
+        'SaveIt app is a mobile web application where you can manage your budget, manage list of transactions associated with a category and money they spent.',
+        para2:
+          'With the SaveIt app, financial management is at your fingertips. Track your expenses, categorize transactions, and gain insight into your spending habits effortlessly.',
+        language: {
+          li1: 'ERB',
+          li2: 'Devise',
+          li3: 'Ruby on Rails',
+          li4: 'Jest',
+          li5: 'HTML/CSS',
+          li6: 'PostgreSQL',
+        },
+
+        link: 'https://saveit-ankit.onrender.com/',
+        code: 'https://github.com/ankitt26/SaveIt',
+      },
+
+      {
+        id: 11,
+        key: 'Recipe-app',
+        heading: 'Recipe app',
+
+        frame: { li1: 'Capstone', li2: 'Full Stack Dev', li3: '2023' },
+
+        img: 'images/project-img/Recipe-app.png',
+        alt: 'Recipe app',
+        para1:
+        'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
+        para2:
+        'With the Recipe app, meal planning and grocery shopping become a breeze, ensuring you always have the right ingredients on hand to whip up your favorite dishes.',
+        language: {
+          li1: 'ERB',
+          li2: 'Devise',
+          li3: 'Ruby on Rails',
+          li4: 'Jest',
+          li5: 'HTML/CSS',
+          li6: 'PostgreSQL',
+        },
+
+        link: 'https://recipe-app-my.onrender.com/',
+        code: 'https://github.com/ankitt26/Recipe-app',
+      },
+
     ];
 
     projects.forEach((value, index) => {
