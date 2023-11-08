@@ -17,6 +17,10 @@
     padding-bottom: 25px;
     width: 100%;
     background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    box-shadow: 0 4px 16px 2px #c5c2c2;
   }
 
   .union {
@@ -56,8 +60,9 @@
     width: 100%;
     height: 680px;
     left: 0;
-    top: 75px;
+    top: 70px;
     margin-bottom: 20px;
+    margin-top: 69px;
     background-color: #fff;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -343,9 +348,10 @@
     display: flex;
     flex-direction: column;
     width: 334px;
-    height: 650px;
+    height: auto;
     background-color: #fff;
     margin-top: -1px;
+    padding-bottom: 190px;
   }
 
   .section2-li {
@@ -374,9 +380,10 @@
     position: relative;
     top: 22px;
     margin-right: 24px;
+    cursor: pointer;
   }
 
-  .languages {
+  .lists {
     display: flex;
     flex-direction: column;
     width: 230px;
@@ -619,6 +626,10 @@
     justify-content: space-around;
     width: 100%;
     background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    box-shadow: 0 4px 10px 3px #c5c2c2;
   }
 
   #logo {
@@ -676,6 +687,7 @@
     flex-direction: column;
     width: 100%;
     height: 800px;
+    margin-top: 70px;
     padding-top: 88px;
     background: #fff;
     background-image: url(./images/Header\ bg@2x.png);
@@ -921,7 +933,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 930px;
+    height: auto;
     border-top-right-radius: 100px;
   }
 
@@ -929,7 +941,7 @@
     display: flex;
     flex-direction: column;
     width: 40%;
-    height: 1000px;
+    height: auto;
     background-color: #fff;
     padding: 30px;
     padding-right: 1px;
@@ -985,8 +997,10 @@
     flex-direction: column;
     align-items: flex-start;
     width: 92%;
+    height: auto;
     background-color: #fff;
     margin-top: 222px;
+    padding-bottom: 400px;
   }
 
   .section2-li {
@@ -1011,13 +1025,20 @@
     position: relative;
     top: 23px;
     right: 28px;
+    cursor: pointer;
   }
 
-  .languages {
+  .lists {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 54%;
+    justify-content: flex-start;
+    row-gap: 22px;
+    column-gap: 37px;
+
+    /* width: 54%; */
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    margin-bottom: 25px;
   }
 
   .lan {
@@ -1036,10 +1057,15 @@
     border-radius: 10px;
   }
 
+  .lan-img {
+    width: 50px;
+  }
+
   .hr {
     border-bottom: 2px solid rgb(188, 188, 188);
     position: relative;
-    top: 44px;
+
+    /* top: 44px; */
     width: 92%;
   }
 
@@ -1058,6 +1084,7 @@
     background-size: 100%;
     background-position-y: 80px;
     background-repeat: no-repeat;
+    margin-top: -100px;
   }
 
   .contact_paragraph {
@@ -1304,4 +1331,8 @@
     position: relative;
     bottom: 32px;
   }
+}
+
+.hide {
+  display: none;
 }
