@@ -1231,6 +1231,7 @@ html {
   border: none;
   font-size: 30px;
   color: #67798e;
+  cursor: pointer;
 }
 
 #pop-frame {
@@ -1341,4 +1342,19 @@ html {
 
 .hide {
   display: none;
+}
+
+.popup {
+  animation: slideFromTop 2s ease-out;
+}
+
+@keyframes slideFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
