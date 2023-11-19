@@ -1222,6 +1222,19 @@ html {
   padding: 5px 25px 40px 25px;
   border-radius: 20px;
   width: 85%;
+  animation: slideFromTop 2s ease-out;
+}
+
+@keyframes slideFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 #pop-close {
@@ -1342,19 +1355,4 @@ html {
 
 .hide {
   display: none;
-}
-
-.popup {
-  animation: slideFromTop 2s ease-out;
-}
-
-@keyframes slideFromTop {
-  0% {
-    opacity: 0;
-    transform: translateY(-100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
