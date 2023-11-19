@@ -353,7 +353,7 @@ for (let i = 0; i < popup.length; i += 1) {
 
         frame: { li1: 'FIGMA', li2: 'Front End Dev', li3: '2023' },
 
-        img: 'images/project-img/loch.png',
+        img: 'images/project-img/Loch.png',
         alt: 'loch',
         para1:
           "Crafted with precision, I transformed Figma's design into a captivating Landing Page for the Loch, ensuring pixel perfection in every detail.",
