@@ -147,9 +147,9 @@ for (let i = 0; i < popup.length; i += 1) {
         img: 'images/project-img/space.png',
         alt: 'Space-Travelers-Hub',
         para1:
-        '\'The Space Travelers\' Hub consists of Rockets, Missions, and the My Profile section. we will be working with the real live data from the SpaceX API.',
+          "'The Space Travelers' Hub consists of Rockets, Missions, and the My Profile section. we will be working with the real live data from the SpaceX API.",
         para2:
-        'We build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+          'We build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
         language: {
           li1: 'HTML',
           li2: 'Css',
@@ -173,9 +173,9 @@ for (let i = 0; i < popup.length; i += 1) {
         img: 'images/project-img/quill-pen.png',
         alt: 'CryptoPlace',
         para1:
-        'Learn complete Full stack Web development with React and Node by doing it the way a full-stack professional would do it.',
+          'Learn complete Full stack Web development with React and Node by doing it the way a full-stack professional would do it.',
         para2:
-        'Learn how to create whole web apps from start to finish with one of the most trending tech stacks available. You can learn how to create data-driven applications, as well as how to test, protect, and deploy your code, in this thorough study path.',
+          'Learn how to create whole web apps from start to finish with one of the most trending tech stacks available. You can learn how to create data-driven applications, as well as how to test, protect, and deploy your code, in this thorough study path.',
         language: {
           li1: 'HTML',
           li2: 'Css',
@@ -199,9 +199,9 @@ for (let i = 0; i < popup.length; i += 1) {
         img: 'images/project-img/Bookstore.png',
         alt: 'Bookstore',
         para1:
-        'With Bookstore, organizing your book collection becomes a breeze. You can effortlessly categorize your books, keep track of their availability, and share your catalog with friends and fellow book enthusiasts',
+          'With Bookstore, organizing your book collection becomes a breeze. You can effortlessly categorize your books, keep track of their availability, and share your catalog with friends and fellow book enthusiasts',
         para2:
-        'Bookstore also offers advanced search and sorting options, making it easy to find specific titles or genres within your collection. Whether you\'re a book collector or a small library owner, Bookstore is your ultimate tool for efficient book management.',
+          "Bookstore also offers advanced search and sorting options, making it easy to find specific titles or genres within your collection. Whether you're a book collector or a small library owner, Bookstore is your ultimate tool for efficient book management.",
         language: {
           li1: 'HTML',
           li2: 'CSS',
@@ -225,9 +225,9 @@ for (let i = 0; i < popup.length; i += 1) {
         img: 'images/project-img/Tindog.png',
         alt: 'Tindog',
         para1:
-        'Experience the perfect platform to forge connections and share your love for dogs. Our app not only helps you find potential matches but also offers a vibrant community where you can exchange tips, stories, and arrange dog-friendly meetups.',
+          'Experience the perfect platform to forge connections and share your love for dogs. Our app not only helps you find potential matches but also offers a vibrant community where you can exchange tips, stories, and arrange dog-friendly meetups.',
         para2:
-        'Tindog is more than just a dating app; it\'s a social hub for the canine-obsessed. Whether you\'re looking for a new four-legged friend for your furry companion or seeking love with a fellow dog enthusiast, Tindog brings the dog-loving community together in one paw-sitively fun space.',
+          "Tindog is more than just a dating app; it's a social hub for the canine-obsessed. Whether you're looking for a new four-legged friend for your furry companion or seeking love with a fellow dog enthusiast, Tindog brings the dog-loving community together in one paw-sitively fun space.",
         language: {
           li1: 'HTML',
           li2: 'Css',
@@ -304,7 +304,7 @@ for (let i = 0; i < popup.length; i += 1) {
         img: 'images/project-img/saveit.png',
         alt: 'saveit',
         para1:
-        'SaveIt app is a mobile web application where you can manage your budget, manage list of transactions associated with a category and money they spent.',
+          'SaveIt app is a mobile web application where you can manage your budget, manage list of transactions associated with a category and money they spent.',
         para2:
           'With the SaveIt app, financial management is at your fingertips. Track your expenses, categorize transactions, and gain insight into your spending habits effortlessly.',
         language: {
@@ -330,9 +330,9 @@ for (let i = 0; i < popup.length; i += 1) {
         img: 'images/project-img/Recipe-app.png',
         alt: 'Recipe app',
         para1:
-        'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
+          'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
         para2:
-        'With the Recipe app, meal planning and grocery shopping become a breeze, ensuring you always have the right ingredients on hand to whip up your favorite dishes.',
+          'With the Recipe app, meal planning and grocery shopping become a breeze, ensuring you always have the right ingredients on hand to whip up your favorite dishes.',
         language: {
           li1: 'ERB',
           li2: 'Devise',
@@ -346,6 +346,30 @@ for (let i = 0; i < popup.length; i += 1) {
         code: 'https://github.com/ankitt26/Recipe-app',
       },
 
+      {
+        id: 12,
+        key: 'loch',
+        heading: 'Loch',
+
+        frame: { li1: 'FIGMA', li2: 'Front End Dev', li3: '2023' },
+
+        img: 'images/project-img/loch.png',
+        alt: 'loch',
+        para1:
+          "Crafted with precision, I transformed Figma's design into a captivating Landing Page for the Loch, ensuring pixel perfection in every detail.",
+        para2: 'Transforming Figma\'s design into a flawless reality, our Landing Page for the Loch is meticulously crafted for pixel perfection. Every detail is thoughtfully implemented, ensuring a seamless and visually stunning user experience that brings the design to life.',
+        language: {
+          li1: 'HTML',
+          li2: 'Css',
+          li3: 'React',
+          li4: 'Typescript',
+          li5: 'Git',
+          li6: 'Github',
+        },
+
+        link: 'https://landing-ankitt26.onrender.com/',
+        code: 'https://github.com/ankitt26/Loch-assessment',
+      },
     ];
 
     projects.forEach((value, index) => {
