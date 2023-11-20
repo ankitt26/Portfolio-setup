@@ -1,17 +1,32 @@
 const work = document.querySelector('.works');
 const allCards = [
+  {
+    id: 'loch',
+    img: 'images/project-img/Loch.png',
+    alt: 'loch',
+    Name: 'Loch',
+    block1: '',
+    block2: '',
+    frame: { li1: 'FIGMA', li2: 'Front End Dev', li3: '2023' },
+    para: "I transformed Figma's design into a captivating Landing Page for the Loch, ensuring pixel perfection in every detail.",
+    language: {
+      li1: 'HTML',
+      li2: 'React',
+      li3: 'Typescript',
+    },
+  },
 
   {
-    id: 'Health-book',
-    img: 'images/project-img/healthbook.png',
-    alt: 'Health book',
-    Name: 'Health Book',
+    id: 'Recipe-app',
+    img: 'images/project-img/Recipe-app.png',
+    alt: 'Recipe app',
+    Name: 'Recipe app',
     block1: 'Aa',
     block2: 'Bb',
     frame: { li1: 'Capstone', li2: 'Full Stack Dev', li3: '2023' },
-    para: 'Health-Book is a software application for making appointments with doctors for a specific date and time duration at the lowest fees.',
+    para: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. Create recipes, and generate a shopping list.',
     language: {
-      li1: 'React',
+      li1: 'ERB',
       li2: 'PostgreSQL',
       li3: 'Ruby on Rails',
     },
@@ -34,16 +49,16 @@ const allCards = [
   },
 
   {
-    id: 'Recipe-app',
-    img: 'images/project-img/Recipe-app.png',
-    alt: 'Recipe app',
-    Name: 'Recipe app',
+    id: 'Health-book',
+    img: 'images/project-img/healthbook.png',
+    alt: 'Health book',
+    Name: 'Health Book',
     block1: 'Aa',
     block2: 'Bb',
     frame: { li1: 'Capstone', li2: 'Full Stack Dev', li3: '2023' },
-    para: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. Create recipes, and generate a shopping list.',
+    para: 'Health-Book is a software application for making appointments with doctors for a specific date and time duration at the lowest fees.',
     language: {
-      li1: 'ERB',
+      li1: 'React',
       li2: 'PostgreSQL',
       li3: 'Ruby on Rails',
     },
@@ -57,7 +72,7 @@ const allCards = [
     block1: '',
     block2: '',
     frame: { li1: 'Javascript', li2: 'Front End Dev', li3: '2023' },
-    para: 'This project utilizes \'tvmaze\' API to fetch data and show cards, along with another API to retrieve and update likes and comments.',
+    para: "This project utilizes 'tvmaze' API to fetch data and show cards, along with another API to retrieve and update likes and comments.",
     language: {
       li1: 'Javascript',
       li2: 'HTML/CSS',
@@ -105,7 +120,7 @@ const allCards = [
     block1: 'Aa',
     block2: 'Bb',
     frame: { li1: 'RESEARCH', li2: 'Front End Dev', li3: '2023' },
-    para: '\'The Space Travelers\' Hub consists of Rockets, Missions, and the My Profile section. we will be working with the real live data from the SpaceX API.',
+    para: "'The Space Travelers' Hub consists of Rockets, Missions, and the My Profile section. we will be working with the real live data from the SpaceX API.",
     language: {
       li1: 'React.js',
       li2: 'Redux',
