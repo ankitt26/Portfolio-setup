@@ -387,8 +387,8 @@ for (let i = 0; i < popup.length; i += 1) {
               <li class="box2-li pop-li">${projects[index].language.li6}</li>
             </ul>
             <div class="pop-buttons">
-            <a href=${value.link}><button class="big-btn btn_btn pop-btn">See Live  <i class="bi bi-arrow-up-right-circle-fill"></i> </button></a>
-            <a href=${value.code}> <button class="big-btn btn_btn pop-btn">See source  <i class="bi bi-github"></i> </button></a>
+            <a href=${value.link} target="_blank"><button class="big-btn btn_btn pop-btn">See Live  <i class="bi bi-arrow-up-right-circle-fill"></i> </button></a>
+            <a href=${value.code} target="_blank"> <button class="big-btn btn_btn pop-btn">See source  <i class="bi bi-github"></i> </button></a>
             </div>
           </div>
         </div>

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @media only screen and (max-width: 767.9px) {
   body {
     background: #e5e5e5;
@@ -85,7 +89,8 @@
 
   .paragraph {
     width: 327px;
-    height: 128px;
+
+    /* height: 155px; */
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -93,6 +98,7 @@
     line-height: 24px;
     padding-left: 26px;
     margin-top: 0;
+    margin-bottom: 0;
   }
 
   .connect {
@@ -301,7 +307,8 @@
     display: flex;
     flex-direction: column;
     width: 375px;
-    height: 551.15px;
+
+    /* height: 551.15px; */
     background-color: #fff;
     border-top-right-radius: 85px;
   }
@@ -350,7 +357,7 @@
     width: 334px;
     height: auto;
     background-color: #fff;
-    margin-top: -1px;
+    margin-top: 50px;
     padding-bottom: 190px;
   }
 
@@ -948,13 +955,13 @@
   }
 
   .about-connect {
-    margin-top: 25px;
+    margin-top: 45px;
   }
 
   .about-social {
     position: relative;
-    right: 20px;
-    top: 20px;
+    right: 18px;
+    top: 0;
   }
 
   .about-para {
@@ -1034,8 +1041,7 @@
     justify-content: flex-start;
     row-gap: 22px;
     column-gap: 37px;
-
-    /* width: 54%; */
+    width: 90%;
     flex-wrap: wrap;
     overflow-wrap: break-word;
     margin-bottom: 25px;
@@ -1225,6 +1231,7 @@
   border: none;
   font-size: 30px;
   color: #67798e;
+  cursor: pointer;
 }
 
 #pop-frame {
@@ -1335,4 +1342,19 @@
 
 .hide {
   display: none;
+}
+
+.popup {
+  animation: slideFromTop 2s ease-out;
+}
+
+@keyframes slideFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
