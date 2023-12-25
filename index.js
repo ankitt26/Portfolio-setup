@@ -357,7 +357,8 @@ for (let i = 0; i < popup.length; i += 1) {
         alt: 'loch',
         para1:
           "Crafted with precision, I transformed Figma's design into a captivating Landing Page for the Loch, ensuring pixel perfection in every detail.",
-        para2: 'Transforming Figma\'s design into a flawless reality, our Landing Page for the Loch is meticulously crafted for pixel perfection. Every detail is thoughtfully implemented, ensuring a seamless and visually stunning user experience that brings the design to life.',
+        para2:
+          "Transforming Figma's design into a flawless reality, our Landing Page for the Loch is meticulously crafted for pixel perfection. Every detail is thoughtfully implemented, ensuring a seamless and visually stunning user experience that brings the design to life.",
         language: {
           li1: 'HTML',
           li2: 'Css',
@@ -369,6 +370,33 @@ for (let i = 0; i < popup.length; i += 1) {
 
         link: 'https://landing-ankitt26.onrender.com/',
         code: 'https://github.com/ankitt26/Loch-assessment',
+      },
+
+      {
+        id: 13,
+        key: 'unicraft',
+        heading: 'Unicraft',
+
+        frame: { li1: 'FIGMA', li2: 'Front End Dev', li3: '2023' },
+
+        img: 'images/project-img/Unicraft.png',
+        alt: 'unicraft',
+        para1: `Elevate Your Presence with Seamless Design and Innovation.
+          From strategic planning to digital presence, we're your dedicated partner in achieving solo success.
+          `,
+        para2:
+          'Our team of creative minds is committed to crafting a unique and impactful identity for your brand, seamlessly blending design and innovation. Let us elevate your presence and navigate the digital landscape with strategic precision, ensuring your solo success stands out in the competitive market.',
+        language: {
+          li1: 'HTML',
+          li2: 'React',
+          li3: 'TailwindCSS',
+          li4: 'Figma',
+          li5: 'Git',
+          li6: 'Github',
+        },
+
+        link: 'https://unicraft-live.onrender.com/',
+        code: 'https://github.com/ankitt26/unicraft',
       },
     ];
 
@@ -442,7 +470,8 @@ const errordiv = document.getElementById('error-div');
 
 submit.addEventListener('click', (event) => {
   if (form.email.value !== form.email.value.toLowerCase()) {
-    errordiv.innerHTML = '  <p class="error-message">! error: email must be in lower case </p>';
+    errordiv.innerHTML =
+      '  <p class="error-message">! error: email must be in lower case </p>';
     event.preventDefault();
   } else {
     errordiv.innerHTML = '';

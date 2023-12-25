@@ -1,6 +1,22 @@
 const work = document.querySelector('.works');
 const allCards = [
   {
+    id: 'unicraft',
+    img: 'images/project-img/Unicraft.png',
+    alt: 'unicraft',
+    Name: 'Unicraft',
+    block1: 'Aa',
+    block2: 'Bb',
+    frame: { li1: 'FIGMA', li2: 'Front End Dev', li3: '2023' },
+    para: "I transformed Figma's design into a Pixel perfect SPA Landing Page of Unicraft, using React with TailwindCSS, perfection in every detail.",
+    language: {
+      li1: 'HTML',
+      li2: 'React',
+      li3: 'TailwindCSS',
+    },
+  },
+
+  {
     id: 'loch',
     img: 'images/project-img/Loch.png',
     alt: 'loch',
